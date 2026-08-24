@@ -1,6 +1,12 @@
 name: Controllo settimanale offerte
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/monitor-offers.yml'
+      - 'scripts/**'
+      - 'data/sources.json'
   schedule:
     - cron: '0 9 * * 1'
       timezone: Europe/Rome
