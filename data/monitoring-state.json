@@ -1,5 +1,40 @@
 {
-  "lastRun": null,
-  "sources": {}
+  "lastRun": "2026-08-24T17:56:05.684Z",
+  "sources": {
+    "miodottore-offer": {
+      "hash": "9b05365b58a899a361ee9056aadaa985befab4a2fba3a8472fc2b1592d99f864",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "miodottore-list": {
+      "hash": "339066f08a870c9de22f26fbfafae6cf6fa1f054a0dfb5592306eb62abca6c2d",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "santagostino-offer": {
+      "hash": "3aaf01afb5acbf5a74fa8bf4bdd21b65b7654ba43ff11c2df8f5f6747490b0ca",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "santagostino-telemedicine": {
+      "hash": "df870e3bca6b04d19a179d88a7cb42f4c325468283bf8b64f5e85e578d8d9bd6",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "doctorium-offer": {
+      "hash": "08bc0dfba8caba622364dc89190ef822a86aca6d3cde128102171785e68c0cb9",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "doctolib-offer": {
+      "hash": "6b7364f7e73b488494d7b092b6e9624d853f9ae47cf4d78cc852057ede6accc4",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    },
+    "doctolib-family": {
+      "hash": "d9f2b01632dbb79323fd20c8fcc159055aeda253d362b4065fec03d7cab34815",
+      "checkedAt": "2026-08-24T17:56:05.684Z",
+      "status": "ok"
+    }
+  }
 }
-
