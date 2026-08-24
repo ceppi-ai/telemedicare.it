@@ -88,11 +88,9 @@ jobs:
           fi
           echo "url=$pr_url" >> "$GITHUB_OUTPUT"
 
-      - name: Invia la notifica GitHub al gestore
+      - name: Richiedi la conferma del gestore
         if: steps.monitor.outputs.needs_review == 'true'
-        continue-on-error: true
         run: |
-          gh pr edit "${{ steps.pull_request.outputs.url }}" --add-assignee "$REVIEWER_LOGIN"
           gh pr edit "${{ steps.pull_request.outputs.url }}" --add-reviewer "$REVIEWER_LOGIN"
 
       - name: Riepilogo
