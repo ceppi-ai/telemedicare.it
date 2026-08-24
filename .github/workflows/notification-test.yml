@@ -1,0 +1,52 @@
+name: Prova notifica approvazione
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/notification-test.yml'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  notification-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Crea una proposta innocua
+        shell: bash
+        run: |
+          git config user.name "telemedicare-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C automation/notification-test
+          printf '%s\n' \
+            '# Prova della notifica Telemedicare' \
+            '' \
+            'File temporaneo: non modifica il sito o i dati delle offerte.' \
+            > .github/notification-test.md
+          git add .github/notification-test.md
+          git commit -m "test: genera richiesta di conferma"
+          git push --force origin automation/notification-test
+
+      - name: Apri la richiesta e avvisa il gestore
+        shell: bash
+        run: |
+          pr_url="$(gh pr list --head automation/notification-test --base main --state open --json url --jq '.[0].url')"
+          if [ -z "$pr_url" ]; then
+            pr_url="$(gh pr create \
+              --base main \
+              --head automation/notification-test \
+              --title "TEST: email di conferma Telemedicare" \
+              --body "Prova controllata. Non unire questa richiesta: serve soltanto a verificare la notifica email.")"
+          fi
+          gh pr edit "$pr_url" --add-reviewer "${{ github.repository_owner }}"
+          echo "Richiesta inviata: $pr_url" >> "$GITHUB_STEP_SUMMARY"
