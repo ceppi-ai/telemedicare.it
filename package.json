@@ -1,0 +1,13 @@
+{
+  "name": "telemedicare-it",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "monitor": "node scripts/monitor-offers.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

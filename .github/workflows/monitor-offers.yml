@@ -1,0 +1,95 @@
+name: Controllo settimanale offerte
+
+on:
+  schedule:
+    - cron: '0 9 * * 1'
+      timezone: Europe/Rome
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-offer-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      REVIEWER_LOGIN: ${{ vars.REVIEWER_LOGIN || github.repository_owner }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configura Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Controlla la validità dei dati attuali
+        run: node scripts/validate-data.mjs
+
+      - name: Controlla le fonti
+        id: monitor
+        run: node scripts/monitor-offers.mjs
+
+      - name: Controlla la validità dei dati proposti
+        run: node scripts/validate-data.mjs
+
+      - name: Configura l'autore automatico
+        run: |
+          git config user.name "telemedicare-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Registra il controllo senza inviare email
+        if: steps.monitor.outputs.needs_review == 'false'
+        run: |
+          git add data/offers.json data/monitoring-state.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "chore: registra controllo settimanale offerte"
+          git push origin HEAD:main
+
+      - name: Prepara il ramo da approvare
+        if: steps.monitor.outputs.needs_review == 'true'
+        run: |
+          git switch -C automation/offers-update
+          git add data/offers.json data/monitoring-state.json
+          git commit -m "chore: propone aggiornamento offerte"
+          git push --force origin automation/offers-update
+
+      - name: Crea o aggiorna la richiesta di conferma
+        if: steps.monitor.outputs.needs_review == 'true'
+        id: pull_request
+        shell: bash
+        run: |
+          pr_url="$(gh pr list --head automation/offers-update --base main --state open --json url --jq '.[0].url')"
+          if [ -z "$pr_url" ]; then
+            pr_url="$(gh pr create \
+              --base main \
+              --head automation/offers-update \
+              --title "Offerte: variazioni da verificare" \
+              --body-file monitor-report.md)"
+          else
+            gh pr edit "$pr_url" --body-file monitor-report.md
+          fi
+          echo "url=$pr_url" >> "$GITHUB_OUTPUT"
+
+      - name: Invia la notifica GitHub al gestore
+        if: steps.monitor.outputs.needs_review == 'true'
+        continue-on-error: true
+        run: |
+          gh pr edit "${{ steps.pull_request.outputs.url }}" --add-assignee "$REVIEWER_LOGIN"
+          gh pr edit "${{ steps.pull_request.outputs.url }}" --add-reviewer "$REVIEWER_LOGIN"
+
+      - name: Riepilogo
+        if: always()
+        run: cat monitor-report.md >> "$GITHUB_STEP_SUMMARY"
+

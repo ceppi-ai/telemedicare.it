@@ -1,0 +1,10 @@
+[
+  {"id": "miodottore-offer", "offerId": "miodottore", "provider": "MioDottore", "kind": "offer", "url": "https://www.miodottore.it/per-pazienti/consulenza-online"},
+  {"id": "miodottore-list", "offerId": "miodottore", "provider": "MioDottore", "kind": "evidence", "url": "https://www.miodottore.it/online"},
+  {"id": "santagostino-offer", "offerId": "santagostino", "provider": "Santagostino", "kind": "offer", "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico", "pricePattern": "(?:costa|prezzo)[^0-9]{0,180}([0-9]+(?:[,.][0-9]{1,2})?)\\s*(?:€|euro)"},
+  {"id": "santagostino-telemedicine", "offerId": "santagostino", "provider": "Santagostino", "kind": "evidence", "url": "https://www.santagostino.it/it/ambulatori/videoconsulti"},
+  {"id": "doctorium-offer", "offerId": "doctorium", "provider": "Doctorium", "kind": "offer", "url": "https://www.doctorium.it/faq/"},
+  {"id": "doctolib-offer", "offerId": "doctolib", "provider": "Doctolib", "kind": "offer", "url": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+  {"id": "doctolib-family", "offerId": "doctolib", "provider": "Doctolib", "kind": "evidence", "url": "https://info.doctolib.it/medici-di-medicina-generale/"}
+]
+

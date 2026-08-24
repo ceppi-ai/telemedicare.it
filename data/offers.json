@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 2,
+  "criteriaVersion": "1.0",
+  "checkedAt": "2026-08-24T10:00:00.000Z",
+  "nextCheck": "2026-08-31T09:00:00.000Z",
+  "offers": [
+    {
+      "id": "miodottore",
+      "provider": "MioDottore",
+      "initials": "MD",
+      "service": "Consulenza online con professionista",
+      "price": "Variabile",
+      "priceNote": "indicata dal professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking"],
+      "description": "Piattaforma per cercare professionisti e prenotare consulenze a distanza. Prezzo, disponibilità e modalità dipendono dal singolo professionista.",
+      "features": ["Prenotazione per un'altra persona", "Promemoria prima della visita", "Consulenza video, chat o telefono", "Tariffe nei profili disponibili"],
+      "assistance": false,
+      "followup": "Non documentato in modo uniforme",
+      "family": "Prenotazione per un'altra persona documentata",
+      "access": "Video, chat o telefono; web e app",
+      "reviewed": "24 ago 2026",
+      "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
+      "sourceUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le tariffe sono mostrate nei profili e nei risultati disponibili prima della prenotazione.", "source": "https://www.miodottore.it/online"},
+        "familySupport": {"met": true, "note": "La pagina ufficiale consente di scegliere l'orario anche per la persona per cui si sta prenotando.", "source": "https://www.miodottore.it/per-pazienti/consulenza-online"},
+        "humanSupport": {"met": false, "note": "La pagina del servizio non documenta un'assistenza umana dedicata alla prenotazione.", "source": null},
+        "multiAccess": {"met": true, "note": "Sono indicate consulenza video, chat e telefonica; è disponibile anche l'app.", "source": "https://www.miodottore.it/per-pazienti/consulenza-online"},
+        "postVisit": {"met": false, "note": "Non è documentato un servizio post-visita uniforme per tutti i professionisti.", "source": null},
+        "usageLimits": {"met": false, "note": "La pagina generale non espone criteri dettagliati e uniformi sui limiti clinici della consulenza a distanza.", "source": null}
+      }
+    },
+    {
+      "id": "santagostino",
+      "provider": "Santagostino",
+      "initials": "SA",
+      "service": "Videoconsulto medico generico",
+      "price": "50 €",
+      "priceNote": "prezzo minimo dichiarato; può variare",
+      "priceBand": "low",
+      "needs": ["general", "booking"],
+      "description": "Videoconsulto programmato con medico generico. La pagina ufficiale pubblica prezzo, requisiti tecnici e situazioni in cui è preferibile la visita in presenza.",
+      "features": ["Prezzo pubblicato", "Prenotazione online", "Computer, smartphone o tablet", "Referti nell'area personale"],
+      "assistance": true,
+      "followup": "Referti nell'area personale",
+      "family": "Sezione familiari nell'account; prenotazione a nome del paziente",
+      "access": "Computer o dispositivo mobile",
+      "reviewed": "24 ago 2026",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "sourceUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "La pagina ufficiale pubblica 50 euro, precisando che il prezzo minimo può variare.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "familySupport": {"met": true, "note": "L'account prevede una sezione Familiari e la pagina richiede di prenotare sempre a nome del paziente.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "humanSupport": {"met": true, "note": "Il sito ufficiale pubblica un contatto telefonico generale per l'assistenza.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "multiAccess": {"met": true, "note": "Il videoconsulto è accessibile da computer, smartphone o tablet.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "postVisit": {"met": true, "note": "La pagina Telemedicina dichiara che i referti restano disponibili nell'Area Referti personale.", "source": "https://www.santagostino.it/it/ambulatori/videoconsulti"},
+        "usageLimits": {"met": true, "note": "La pagina spiega quando il videoconsulto non sostituisce la visita in presenza.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"}
+      }
+    },
+    {
+      "id": "doctorium",
+      "provider": "Doctorium",
+      "initials": "DR",
+      "service": "Videoconsulto specialistico",
+      "price": "Variabile",
+      "priceNote": "tariffa indicata accanto al professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "continuity", "booking"],
+      "description": "Videoconsulto specialistico con tariffa pubblicata per professionista e supporto dello staff. La pagina ufficiale documenta assistenza, referto e possibile chat successiva.",
+      "features": ["Staff 7 giorni su 7", "Tariffa prima della richiesta", "Referto scaricabile", "Chat post-visita se attivata"],
+      "assistance": true,
+      "followup": "Referto; chat per 7 giorni se attivata dal professionista",
+      "family": "Assistenza di familiare o caregiver documentata",
+      "access": "Browser da computer, tablet o smartphone",
+      "reviewed": "24 ago 2026",
+      "url": "https://www.doctorium.it/faq/",
+      "sourceUrl": "https://www.doctorium.it/faq/",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "La tariffa è dichiarata accanto a ciascun professionista prima della richiesta.", "source": "https://www.doctorium.it/faq/"},
+        "familySupport": {"met": true, "note": "La pagina dichiara che anziani e persone poco digitali possono farsi assistere da familiare o caregiver.", "source": "https://www.doctorium.it/faq/"},
+        "humanSupport": {"met": true, "note": "Sono pubblicati staff, WhatsApp, email e telefono con orari di assistenza.", "source": "https://www.doctorium.it/faq/"},
+        "multiAccess": {"met": true, "note": "Il servizio funziona da browser su computer, tablet o smartphone.", "source": "https://www.doctorium.it/faq/"},
+        "postVisit": {"met": true, "note": "È previsto un documento riepilogativo; la chat per 7 giorni è disponibile quando attivata dal professionista.", "source": "https://www.doctorium.it/faq/"},
+        "usageLimits": {"met": true, "note": "La pagina dichiara che il consulto non è per emergenze e quando serve una valutazione in presenza.", "source": "https://www.doctorium.it/faq/"}
+      }
+    },
+    {
+      "id": "doctolib",
+      "provider": "Doctolib",
+      "initials": "DL",
+      "service": "Videoconsulto con professionista",
+      "price": "Variabile",
+      "priceNote": "stabilito dal professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking", "continuity"],
+      "description": "Videoconsulto disponibile quando attivato dal professionista. Prenotazione, collegamento e documenti sono gestiti dal sito o dall'app.",
+      "features": ["Prenotazione per familiari", "Sito o app", "Link via email o SMS", "Documenti dopo l'appuntamento"],
+      "assistance": true,
+      "followup": "Documenti condivisibili dopo l'appuntamento",
+      "family": "Prenotazione per un familiare documentata",
+      "access": "Sito, app o link email/SMS",
+      "reviewed": "24 ago 2026",
+      "url": "https://www.doctolib.it/salute/prenota-videoconsulto/",
+      "sourceUrl": "https://www.doctolib.it/salute/prenota-videoconsulto/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "La pagina generale del videoconsulto non pubblica un prezzo o una regola uniforme.", "source": null},
+        "familySupport": {"met": true, "note": "La pagina ufficiale per i medici di famiglia documenta la prenotazione per i propri familiari.", "source": "https://info.doctolib.it/medici-di-medicina-generale/"},
+        "humanSupport": {"met": true, "note": "La pagina del videoconsulto rimanda a un centro di assistenza e a un canale di contatto.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "multiAccess": {"met": true, "note": "Il collegamento è disponibile da sito, app o link ricevuto via email o SMS.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "postVisit": {"met": true, "note": "Dopo l'appuntamento il professionista può condividere documenti nell'account del paziente.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "usageLimits": {"met": true, "note": "La pagina precisa che idoneità e disponibilità del videoconsulto dipendono dal professionista sanitario.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"}
+      }
+    }
+  ]
+}
+
