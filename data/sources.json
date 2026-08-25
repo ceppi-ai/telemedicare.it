@@ -7,7 +7,6 @@
   {"id": "doctolib-offer", "offerId": "doctolib", "provider": "Doctolib", "kind": "offer", "url": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
   {"id": "doctolib-family", "offerId": "doctolib", "provider": "Doctolib", "kind": "evidence", "url": "https://info.doctolib.it/medici-di-medicina-generale/"},
   {"id": "idoctors-offer", "offerId": "idoctors", "provider": "iDoctors", "kind": "offer", "url": "https://www.idoctors.it/videoconsulti"},
-  {"id": "paginemediche-offer", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "offer", "url": "https://visitami.paginemediche.it/"},
   {"id": "paginemediche-docs", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "evidence", "url": "https://supporto.paginemediche.it/onepage-documentation/"},
   {"id": "paginemediche-terms", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "evidence", "url": "https://www.paginemediche.it/termini-e-condizioni"},
   {"id": "topdoctors-offer", "offerId": "topdoctors", "provider": "Top Doctors", "kind": "offer", "url": "https://www.topdoctors.it/telemedicina/dottor/"},
