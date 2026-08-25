@@ -17,8 +17,26 @@ const evidenceLedger = JSON.parse(readFileSync(evidenceLedgerPath, 'utf8'));
 const evidencePublicKey = readFileSync(evidencePublicKeyPath, 'utf8');
 const now = new Date();
 const nowIso = now.toISOString();
-const nextCheck = new Date(now);
-nextCheck.setUTCDate(nextCheck.getUTCDate() + 7);
+
+function nextScheduledCheck(date) {
+  const parts = Object.fromEntries(new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/Rome',
+    weekday: 'short',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    hourCycle: 'h23'
+  }).formatToParts(date).filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
+  const weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(parts.weekday);
+  const hour = Number(parts.hour);
+  let daysUntilMonday = (8 - weekday) % 7;
+  if (daysUntilMonday === 0 && hour >= 9) daysUntilMonday = 7;
+  const target = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day) + daysUntilMonday, 9));
+  return target;
+}
+
+const nextCheck = nextScheduledCheck(now);
 
 const results = [];
 const fieldChanges = [];
@@ -272,3 +290,4 @@ if (process.env.GITHUB_OUTPUT) {
 }
 
 console.log(report);
+
