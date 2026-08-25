@@ -84,6 +84,7 @@ Carica una sola volta nella cartella principale dell'Hosting Windows Aruba:
 - `styles.css`
 - `script.js`
 - `config.js`
+- `favicon.svg`
 
 Le cartelle `.github` e `scripts` rimangono su GitHub e non devono essere caricate su Aruba. La cartella `data` serve alla preview locale; online il sito legge il file pubblico direttamente da GitHub.
 
