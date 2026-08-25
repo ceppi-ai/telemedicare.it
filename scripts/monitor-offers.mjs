@@ -32,8 +32,25 @@ function nextScheduledCheck(date) {
   const hour = Number(parts.hour);
   let daysUntilMonday = (8 - weekday) % 7;
   if (daysUntilMonday === 0 && hour >= 9) daysUntilMonday = 7;
-  const target = new Date(Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day) + daysUntilMonday, 9));
-  return target;
+  const targetLocal = {
+    year: Number(parts.year),
+    month: Number(parts.month),
+    day: Number(parts.day) + daysUntilMonday,
+    hour: 9,
+    minute: 0
+  };
+  const targetAsUtc = Date.UTC(targetLocal.year, targetLocal.month - 1, targetLocal.day, targetLocal.hour, targetLocal.minute);
+  let instant = targetAsUtc;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    const zoned = Object.fromEntries(new Intl.DateTimeFormat('en-GB', {
+      timeZone: 'Europe/Rome',
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+    }).formatToParts(new Date(instant)).filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
+    const displayedAsUtc = Date.UTC(Number(zoned.year), Number(zoned.month) - 1, Number(zoned.day), Number(zoned.hour), Number(zoned.minute));
+    instant += targetAsUtc - displayedAsUtc;
+  }
+  return new Date(instant);
 }
 
 const nextCheck = nextScheduledCheck(now);

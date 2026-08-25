@@ -23,7 +23,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     env:
       REVIEWER_LOGIN: ${{ vars.REVIEWER_LOGIN || github.repository_owner }}
       GH_TOKEN: ${{ github.token }}
@@ -96,3 +96,4 @@ jobs:
       - name: Riepilogo
         if: always()
         run: cat monitor-report.md >> "$GITHUB_STEP_SUMMARY"
+

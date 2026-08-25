@@ -77,6 +77,7 @@ Carica una sola volta nella cartella principale dell'Hosting Windows Aruba:
 - `index.html`
 - `metodologia.html`
 - `criteri.html`
+- `inclusione.html`
 - `privacy.html`
 - `cookie.html`
 - `note-legali.html`
@@ -106,6 +107,13 @@ La prima esecuzione registra le impronte iniziali. Se i dati estratti differisco
 
 Se la proposta non è corretta, non fare merge: chiudi la pull request oppure modifica i dati direttamente su GitHub prima di unirla.
 
+## Cosa accade il primo lunedì del mese
+
+1. GitHub apre una issue intitolata **“Censimento telemedicina: ricerca mensile”** e la assegna al valore di `REVIEWER_LOGIN`.
+2. L'issue contiene ricerche Google e Bing ripetibili, l'elenco dei servizi già inclusi e la checklist dei requisiti pubblici.
+3. Il gestore valuta soltanto fonti ufficiali, annota ammessi e non ammessi e aggiorna il registro anche se non trova nuovi servizi.
+4. Nessuna azienda viene aggiunta automaticamente e la candidatura a `segnalazioni@telemedicare.it` è sempre gratuita.
+
 ## Archivio probatorio
 
 La chiave privata dell'archivio si trova soltanto sul computer del gestore in:
@@ -123,3 +131,4 @@ Creane una copia di sicurezza offline o in un archivio personale protetto. Non c
 - Il workflow può modificare esclusivamente il proprio repository.
 - Se GitHub non è temporaneamente raggiungibile, il sito non mostra una copia potenzialmente obsoleta e segnala che i dati non sono disponibili.
 - Nessun dato sanitario o dato dei visitatori passa attraverso GitHub.
+

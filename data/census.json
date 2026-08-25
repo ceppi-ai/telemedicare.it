@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "scopeVersion": "1.0",
+  "lastDiscoveryAt": "2026-08-25T16:30:00.000Z",
+  "nextDiscoveryAt": "2026-09-07T09:30:00.000Z",
+  "exhaustive": false,
+  "definition": "Servizi rivolti al pubblico italiano che permettono di prenotare o richiedere online una prestazione sanitaria a distanza con un professionista, sulla base di pagine ufficiali pubblicamente verificabili.",
+  "requirements": [
+    {"id": "italy", "label": "Disponibile al pubblico italiano", "description": "Il servizio è presentato in italiano e può essere richiesto da utenti in Italia, senza essere riservato a una singola azienda, assicurazione o fondo."},
+    {"id": "healthcare", "label": "Prestazione sanitaria a distanza", "description": "È documentata un'interazione a distanza con un medico o altro professionista sanitario, non soltanto contenuti informativi o un software gestionale."},
+    {"id": "consumer-path", "label": "Percorso concreto per il paziente", "description": "Una pagina ufficiale consente di cercare, prenotare, richiedere o attivare la prestazione come paziente o caregiver."},
+    {"id": "public-evidence", "label": "Fonti ufficiali accessibili", "description": "Esiste almeno una pagina ufficiale consultabile pubblicamente che descrive il servizio e può essere monitorata nel tempo."},
+    {"id": "multi-offer", "label": "Offerta generale o multispecialistica", "description": "Il servizio non è limitato a una sola disciplina isolata: offre medicina generale, più specialità o una piattaforma aperta a più professionisti sanitari."},
+    {"id": "active", "label": "Servizio attivo al momento della verifica", "description": "Le pagine ufficiali mostrano un percorso utilizzabile o una modalità di prenotazione/richiesta attuale."}
+  ],
+  "exclusions": [
+    "Software venduto soltanto a strutture o professionisti, senza un servizio prenotabile dal pubblico.",
+    "Semplici elenchi di medici che non documentano una prestazione sanitaria a distanza.",
+    "Servizi riservati esclusivamente a dipendenti, assicurati, iscritti a fondi o pazienti già presi in carico.",
+    "Sistemi di soli dispositivi, telemonitoraggio o telerefertazione senza consulto richiedibile dal paziente.",
+    "Servizi dedicati a una sola disciplina, per mantenere confrontabili le offerte multispecialistiche.",
+    "Pagine promozionali non più attive o prive di un percorso concreto di richiesta/prenotazione."
+  ],
+  "included": [
+    {"offerId": "miodottore", "provider": "MioDottore", "officialUrl": "https://www.miodottore.it/per-pazienti/consulenza-online", "admittedAt": "2026-08-25"},
+    {"offerId": "santagostino", "provider": "Santagostino", "officialUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico", "admittedAt": "2026-08-25"},
+    {"offerId": "doctorium", "provider": "Doctorium", "officialUrl": "https://www.doctorium.it/faq/", "admittedAt": "2026-08-25"},
+    {"offerId": "doctolib", "provider": "Doctolib", "officialUrl": "https://www.doctolib.it/salute/prenota-videoconsulto/", "admittedAt": "2026-08-25"},
+    {"offerId": "idoctors", "provider": "iDoctors", "officialUrl": "https://www.idoctors.it/videoconsulti", "admittedAt": "2026-08-25"},
+    {"offerId": "paginemediche", "provider": "Paginemediche", "officialUrl": "https://visitami.paginemediche.it/", "admittedAt": "2026-08-25"},
+    {"offerId": "topdoctors", "provider": "Top Doctors", "officialUrl": "https://www.topdoctors.it/telemedicina/dottor/", "admittedAt": "2026-08-25"},
+    {"offerId": "livedoctor", "provider": "Live Doctor", "officialUrl": "https://livedoctor.it/", "admittedAt": "2026-08-25"},
+    {"offerId": "humanitas", "provider": "Humanitas", "officialUrl": "https://www.humanitas.it/visite-ed-esami/televisita/", "admittedAt": "2026-08-25"},
+    {"offerId": "cdidigital", "provider": "CDI Digital", "officialUrl": "https://www.cdi-digital.it/", "admittedAt": "2026-08-25"},
+    {"offerId": "govisit", "provider": "GoVisit", "officialUrl": "https://www.go-visit.it/", "admittedAt": "2026-08-25"},
+    {"offerId": "healthpoint", "provider": "Health Point", "officialUrl": "https://www.healthpointitalia.com/", "admittedAt": "2026-08-25"},
+    {"offerId": "miagenda", "provider": "miAgenda", "officialUrl": "https://www.miagenda.it/", "admittedAt": "2026-08-25"},
+    {"offerId": "saluteinsieme", "provider": "SaluteInsieme", "officialUrl": "https://www.saluteinsieme.it/", "admittedAt": "2026-08-25"}
+  ],
+  "discoveryQueries": [
+    "videoconsulto medico online prenota Italia telemedicina",
+    "visita medica online specialisti piattaforma Italia prenotazione",
+    "teleconsulto medico online prezzo Italia piattaforma",
+    "telemedicina pazienti videoconsulto sito ufficiale Italia"
+  ],
+  "submission": {
+    "email": "segnalazioni@telemedicare.it",
+    "free": true,
+    "requiredInformation": ["ragione sociale o nome del gestore", "URL ufficiale del servizio", "descrizione del percorso per il paziente", "pagine ufficiali che provano le caratteristiche"]
+  }
+}
+

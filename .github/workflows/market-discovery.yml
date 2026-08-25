@@ -1,0 +1,67 @@
+name: Ricerca mensile nuovi fornitori
+
+on:
+  schedule:
+    - cron: '30 9 * * 1'
+      timezone: Europe/Rome
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: monthly-market-discovery
+  cancel-in-progress: false
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      REVIEWER_LOGIN: ${{ vars.REVIEWER_LOGIN || github.repository_owner }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+
+      - name: Verifica che sia il primo lunedì del mese
+        id: calendar
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=Europe/Rome date +%d)" -le 7 ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configura Node.js
+        if: steps.calendar.outputs.proceed == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Prepara la ricerca mensile
+        if: steps.calendar.outputs.proceed == 'true'
+        run: node scripts/monthly-discovery.mjs
+
+      - name: Crea il promemoria assegnato al gestore
+        if: steps.calendar.outputs.proceed == 'true'
+        shell: bash
+        run: |
+          month="$(date -u +'%Y-%m')"
+          title="Censimento telemedicina: ricerca mensile ${month}"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')"
+          if [ -z "$existing" ]; then
+            gh issue create \
+              --title "$title" \
+              --body-file discovery-report.md \
+              --assignee "$REVIEWER_LOGIN"
+          else
+            echo "Esiste già l'issue #$existing per questo mese."
+          fi
+
+      - name: Riepilogo
+        if: steps.calendar.outputs.proceed == 'true'
+        run: cat discovery-report.md >> "$GITHUB_STEP_SUMMARY"
+

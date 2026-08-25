@@ -28,13 +28,14 @@ function safeUrl(value) {
   }
 }
 
-function remoteOffersUrl() {
+function remoteDataUrl(path) {
   const config = window.TELEMEDICARE_CONFIG;
   if (!config || !config.githubOwner || config.githubOwner === 'INSERISCI_USERNAME_GITHUB') return null;
   const owner = encodeURIComponent(config.githubOwner);
   const repository = encodeURIComponent(config.githubRepository || 'telemedicare.it');
   const branch = encodeURIComponent(config.githubBranch || 'main');
-  return `https://raw.githubusercontent.com/${owner}/${repository}/${branch}/data/offers.json`;
+  const safePath = String(path).split('/').map(encodeURIComponent).join('/');
+  return `https://raw.githubusercontent.com/${owner}/${repository}/${branch}/${safePath}`;
 }
 
 function formatCheckDate(value) {
@@ -66,7 +67,7 @@ function validPayload(data) {
 async function loadOffers() {
   const hasConsumer = document.querySelector('#offer-grid') || document.querySelector('#criteria-matrix');
   if (!hasConsumer) return;
-  const remoteUrl = remoteOffersUrl();
+  const remoteUrl = remoteDataUrl('data/offers.json');
   const url = remoteUrl || 'data/offers.json';
   try {
     const response = await fetch(`${url}?v=${Date.now()}`, { cache: 'no-store' });
@@ -83,6 +84,34 @@ async function loadOffers() {
     const matrix = document.querySelector('#criteria-matrix');
     if (grid) grid.innerHTML = '<div class="data-unavailable"><h3>Dati temporaneamente non disponibili</h3><p>Per prudenza non mostriamo copie non aggiornate. Riprova più tardi.</p></div>';
     if (matrix) matrix.innerHTML = '<div class="data-unavailable"><h3>Matrice temporaneamente non disponibile</h3><p>Le prove torneranno visibili insieme ai dati aggiornati.</p></div>';
+  }
+}
+
+async function loadCensus() {
+  const providers = document.querySelector('#included-providers');
+  if (!providers) return;
+  const remoteUrl = remoteDataUrl('data/census.json');
+  const url = remoteUrl || 'data/census.json';
+  try {
+    const response = await fetch(`${url}?v=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const census = await response.json();
+    if (census?.schemaVersion !== 1 || census.exhaustive !== false || !Array.isArray(census.included)) {
+      throw new Error('formato censimento non valido');
+    }
+    const count = document.querySelector('#included-count');
+    const last = document.querySelector('#last-discovery-date');
+    const next = document.querySelector('#next-discovery-date');
+    if (count) count.textContent = String(census.included.length);
+    if (last) last.textContent = formatCheckDate(census.lastDiscoveryAt) || 'non disponibile';
+    if (next) next.textContent = formatCheckDate(census.nextDiscoveryAt) || 'non disponibile';
+    providers.innerHTML = census.included
+      .sort((a, b) => a.provider.localeCompare(b.provider, 'it'))
+      .map(entry => `<li><a href="${safeUrl(entry.officialUrl)}" target="_blank" rel="noopener noreferrer nofollow">${escapeHTML(entry.provider)} <span aria-hidden="true">↗</span></a></li>`)
+      .join('');
+  } catch (error) {
+    console.warn('Censimento non disponibile.', error);
+    providers.innerHTML = '<li>Elenco temporaneamente non disponibile. Riprova più tardi.</li>';
   }
 }
 
@@ -267,4 +296,5 @@ if ('IntersectionObserver' in window) {
 }
 
 loadOffers();
+loadCensus();
 

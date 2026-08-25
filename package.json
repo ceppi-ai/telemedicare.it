@@ -5,6 +5,7 @@
   "scripts": {
     "monitor": "node scripts/monitor-offers.mjs",
     "validate": "node scripts/validate-data.mjs",
+    "discovery": "node scripts/monthly-discovery.mjs",
     "evidence:keygen": "node scripts/generate-evidence-key.mjs",
     "evidence:decrypt": "node scripts/decrypt-evidence.mjs"
   },
@@ -12,3 +13,4 @@
     "node": ">=20"
   }
 }
+
