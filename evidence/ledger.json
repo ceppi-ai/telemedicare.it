@@ -360,6 +360,66 @@
       "rawHtmlSha256": "8f39000f1ca5699c86a3680a6514462b905d41653fb522b47b047ae9a0ca4569",
       "normalizedHtmlSha256": "bbd0f0bfd3c2d15a6cc55ed881fb44695aecdf7eb76b8cf1129edcf5abd4a7b5",
       "visibleTextSha256": "1f04be84b1e6e640c75c599f9172388cb1d369b70658088f4317c63f5de937ea"
+    },
+    {
+      "capturedAt": "2026-08-25T16:54:58.314Z",
+      "sourceId": "santagostino-offer",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "finalUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "path": "evidence/archive/2026/08/25/santagostino-offer-19edcdd7b3426261.evidence.json",
+      "rawHtmlSha256": "19edcdd7b34262612c6ac556c9c9fa42ed139c4ec157cbe83d4610c60910cbda",
+      "normalizedHtmlSha256": "0d4019a353add346367a162b4eee2925593b9b1c74643c93baa3d7abca610997",
+      "visibleTextSha256": "6ae1cb5227648c89b345757b004ec7a41a782f01752db34660731ed5293dd5f5"
+    },
+    {
+      "capturedAt": "2026-08-25T16:54:58.314Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/08/25/santagostino-telemedicine-a5fa8dbd135f52e1.evidence.json",
+      "rawHtmlSha256": "a5fa8dbd135f52e1226641ce6f21e1f31afe5dfee927fca102c3e93dd1d325d3",
+      "normalizedHtmlSha256": "262924de074bc2529408dd0c655dcb597b59e0370cb53d60559b076f107e1492",
+      "visibleTextSha256": "7f9475d0ae7928ae6401daa080978135107bd3244a9980c65cf5a6d36ec86710"
+    },
+    {
+      "capturedAt": "2026-08-25T16:54:58.314Z",
+      "sourceId": "doctorium-offer",
+      "offerId": "doctorium",
+      "provider": "Doctorium",
+      "url": "https://www.doctorium.it/faq/",
+      "finalUrl": "https://www.doctorium.it/faq/",
+      "path": "evidence/archive/2026/08/25/doctorium-offer-75a53bc20860fe6a.evidence.json",
+      "rawHtmlSha256": "75a53bc20860fe6af59383634be152e30d62cbe5d54177e681874464a0e85119",
+      "normalizedHtmlSha256": "a7d4e19762a0e63520f8b5339332959118f993de214cf2c94e3b89e5cdfd9278",
+      "visibleTextSha256": "a5b7cba2969708d03937a4c8459df68b48e4ae5f1769beb100cc94cb3735acca"
+    },
+    {
+      "capturedAt": "2026-08-25T16:54:58.314Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/08/25/idoctors-offer-9b7c2025d3757245.evidence.json",
+      "rawHtmlSha256": "9b7c2025d3757245aeb597fbb671df8b7e616ff4ad8eb25e74f05161973f6cc3",
+      "normalizedHtmlSha256": "c3273f62a18e37dd7740662bc9c53dd91aa1a4d952b6881f159517a888fe8644",
+      "visibleTextSha256": "3829bcfb9158328f85d9133109016ee80cc15e9a59d749573a72f572555e7c9e"
+    },
+    {
+      "capturedAt": "2026-08-25T16:54:58.314Z",
+      "sourceId": "paginemediche-offer",
+      "offerId": "paginemediche",
+      "provider": "Paginemediche",
+      "url": "https://visitami.paginemediche.it/",
+      "finalUrl": "https://visitami.paginemediche.it/",
+      "path": "evidence/archive/2026/08/25/paginemediche-offer-42d3c2f85cbb45fb.evidence.json",
+      "rawHtmlSha256": "42d3c2f85cbb45fb9c331186df96d50335c79cbcfe11cba0245084d13820520e",
+      "normalizedHtmlSha256": "eca7034f2754d123d639f8257580c394a19b85006ecf4d9adb47fb33128d8a1a",
+      "visibleTextSha256": "a788c68372bccf49ceeae52ab2bce3242e8d97fb692d0f920a75eaa6cbe1e177"
     }
   ]
 }
