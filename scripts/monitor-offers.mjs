@@ -202,9 +202,11 @@ for (const source of sources) {
     const hash = sha256(normalized);
     const rawHash = sha256(html);
     const textHash = sha256(text);
-    const firstCheck = !previousState.hash;
-    const changed = Boolean(previousState.hash && previousState.hash !== hash);
-    const needsEvidence = previousState.archivedHash !== hash;
+    const previousTextHash = previousState.textHash ?? previousState.hash;
+    const previousArchivedTextHash = previousState.archivedTextHash ?? previousState.textHash;
+    const firstCheck = !previousTextHash;
+    const changed = Boolean(previousTextHash && previousTextHash !== textHash);
+    const needsEvidence = !previousArchivedTextHash || previousArchivedTextHash !== textHash;
     const offer = data.offers.find(item => item.id === source.offerId);
     const detected = [];
 
@@ -230,6 +232,7 @@ for (const source of sources) {
       rawHash,
       textHash,
       archivedHash: needsEvidence ? hash : previousState.archivedHash,
+      archivedTextHash: needsEvidence ? textHash : previousArchivedTextHash,
       evidencePath,
       checkedAt: nowIso,
       status: 'ok'
