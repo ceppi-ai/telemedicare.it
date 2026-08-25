@@ -12,17 +12,9 @@
       "price": "Variabile",
       "priceNote": "indicata dal professionista",
       "priceBand": "variable",
-      "needs": [
-        "specialist",
-        "booking"
-      ],
+      "needs": ["specialist", "booking"],
       "description": "Piattaforma per cercare professionisti e prenotare consulenze a distanza. Prezzo, disponibilità e modalità dipendono dal singolo professionista.",
-      "features": [
-        "Prenotazione per un'altra persona",
-        "Promemoria prima della visita",
-        "Consulenza video, chat o telefono",
-        "Tariffe nei profili disponibili"
-      ],
+      "features": ["Prenotazione per un'altra persona", "Promemoria prima della visita", "Consulenza video, chat o telefono", "Tariffe nei profili disponibili"],
       "assistance": false,
       "followup": "Non documentato in modo uniforme",
       "family": "Prenotazione per un'altra persona documentata",
@@ -31,36 +23,12 @@
       "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "sourceUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "criteria": {
-        "priceBefore": {
-          "met": true,
-          "note": "Le tariffe sono mostrate nei profili e nei risultati disponibili prima della prenotazione.",
-          "source": "https://www.miodottore.it/online"
-        },
-        "familySupport": {
-          "met": true,
-          "note": "La pagina ufficiale consente di scegliere l'orario anche per la persona per cui si sta prenotando.",
-          "source": "https://www.miodottore.it/per-pazienti/consulenza-online"
-        },
-        "humanSupport": {
-          "met": false,
-          "note": "La pagina del servizio non documenta un'assistenza umana dedicata alla prenotazione.",
-          "source": null
-        },
-        "multiAccess": {
-          "met": true,
-          "note": "Sono indicate consulenza video, chat e telefonica; è disponibile anche l'app.",
-          "source": "https://www.miodottore.it/per-pazienti/consulenza-online"
-        },
-        "postVisit": {
-          "met": false,
-          "note": "Non è documentato un servizio post-visita uniforme per tutti i professionisti.",
-          "source": null
-        },
-        "usageLimits": {
-          "met": false,
-          "note": "La pagina generale non espone criteri dettagliati e uniformi sui limiti clinici della consulenza a distanza.",
-          "source": null
-        }
+        "priceBefore": {"met": true, "note": "Le tariffe sono mostrate nei profili e nei risultati disponibili prima della prenotazione.", "source": "https://www.miodottore.it/online"},
+        "familySupport": {"met": true, "note": "La pagina ufficiale consente di scegliere l'orario anche per la persona per cui si sta prenotando.", "source": "https://www.miodottore.it/per-pazienti/consulenza-online"},
+        "humanSupport": {"met": false, "note": "La pagina del servizio non documenta un'assistenza umana dedicata alla prenotazione.", "source": null},
+        "multiAccess": {"met": true, "note": "Sono indicate consulenza video, chat e telefonica; è disponibile anche l'app.", "source": "https://www.miodottore.it/per-pazienti/consulenza-online"},
+        "postVisit": {"met": false, "note": "Non è documentato un servizio post-visita uniforme per tutti i professionisti.", "source": null},
+        "usageLimits": {"met": false, "note": "La pagina generale non espone criteri dettagliati e uniformi sui limiti clinici della consulenza a distanza.", "source": null}
       }
     },
     {
@@ -71,17 +39,9 @@
       "price": "50 €",
       "priceNote": "prezzo minimo dichiarato; può variare",
       "priceBand": "low",
-      "needs": [
-        "general",
-        "booking"
-      ],
+      "needs": ["general", "booking"],
       "description": "Videoconsulto programmato con medico generico. La pagina ufficiale pubblica prezzo, requisiti tecnici e situazioni in cui è preferibile la visita in presenza.",
-      "features": [
-        "Prezzo pubblicato",
-        "Prenotazione online",
-        "Computer, smartphone o tablet",
-        "Referti nell'area personale"
-      ],
+      "features": ["Prezzo pubblicato", "Prenotazione online", "Computer, smartphone o tablet", "Referti nell'area personale"],
       "assistance": true,
       "followup": "Referti nell'area personale",
       "family": "Sezione familiari nell'account; prenotazione a nome del paziente",
@@ -90,36 +50,12 @@
       "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "sourceUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "criteria": {
-        "priceBefore": {
-          "met": true,
-          "note": "La pagina ufficiale pubblica 50 euro, precisando che il prezzo minimo può variare.",
-          "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"
-        },
-        "familySupport": {
-          "met": true,
-          "note": "L'account prevede una sezione Familiari e la pagina richiede di prenotare sempre a nome del paziente.",
-          "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"
-        },
-        "humanSupport": {
-          "met": true,
-          "note": "Il sito ufficiale pubblica un contatto telefonico generale per l'assistenza.",
-          "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"
-        },
-        "multiAccess": {
-          "met": true,
-          "note": "Il videoconsulto è accessibile da computer, smartphone o tablet.",
-          "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"
-        },
-        "postVisit": {
-          "met": true,
-          "note": "La pagina Telemedicina dichiara che i referti restano disponibili nell'Area Referti personale.",
-          "source": "https://www.santagostino.it/it/ambulatori/videoconsulti"
-        },
-        "usageLimits": {
-          "met": true,
-          "note": "La pagina spiega quando il videoconsulto non sostituisce la visita in presenza.",
-          "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"
-        }
+        "priceBefore": {"met": true, "note": "La pagina ufficiale pubblica 50 euro, precisando che il prezzo minimo può variare.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "familySupport": {"met": true, "note": "L'account prevede una sezione Familiari e la pagina richiede di prenotare sempre a nome del paziente.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "humanSupport": {"met": true, "note": "Il sito ufficiale pubblica un contatto telefonico generale per l'assistenza.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "multiAccess": {"met": true, "note": "Il videoconsulto è accessibile da computer, smartphone o tablet.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"},
+        "postVisit": {"met": true, "note": "La pagina Telemedicina dichiara che i referti restano disponibili nell'Area Referti personale.", "source": "https://www.santagostino.it/it/ambulatori/videoconsulti"},
+        "usageLimits": {"met": true, "note": "La pagina spiega quando il videoconsulto non sostituisce la visita in presenza.", "source": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico"}
       }
     },
     {
@@ -130,18 +66,9 @@
       "price": "Variabile",
       "priceNote": "tariffa indicata accanto al professionista",
       "priceBand": "variable",
-      "needs": [
-        "specialist",
-        "continuity",
-        "booking"
-      ],
+      "needs": ["specialist", "continuity", "booking"],
       "description": "Videoconsulto specialistico con tariffa pubblicata per professionista e supporto dello staff. La pagina ufficiale documenta assistenza, referto e possibile chat successiva.",
-      "features": [
-        "Staff 7 giorni su 7",
-        "Tariffa prima della richiesta",
-        "Referto scaricabile",
-        "Chat post-visita se attivata"
-      ],
+      "features": ["Staff 7 giorni su 7", "Tariffa prima della richiesta", "Referto scaricabile", "Chat post-visita se attivata"],
       "assistance": true,
       "followup": "Referto; chat per 7 giorni se attivata dal professionista",
       "family": "Assistenza di familiare o caregiver documentata",
@@ -150,36 +77,12 @@
       "url": "https://www.doctorium.it/faq/",
       "sourceUrl": "https://www.doctorium.it/faq/",
       "criteria": {
-        "priceBefore": {
-          "met": true,
-          "note": "La tariffa è dichiarata accanto a ciascun professionista prima della richiesta.",
-          "source": "https://www.doctorium.it/faq/"
-        },
-        "familySupport": {
-          "met": true,
-          "note": "La pagina dichiara che anziani e persone poco digitali possono farsi assistere da familiare o caregiver.",
-          "source": "https://www.doctorium.it/faq/"
-        },
-        "humanSupport": {
-          "met": true,
-          "note": "Sono pubblicati staff, WhatsApp, email e telefono con orari di assistenza.",
-          "source": "https://www.doctorium.it/faq/"
-        },
-        "multiAccess": {
-          "met": true,
-          "note": "Il servizio funziona da browser su computer, tablet o smartphone.",
-          "source": "https://www.doctorium.it/faq/"
-        },
-        "postVisit": {
-          "met": true,
-          "note": "È previsto un documento riepilogativo; la chat per 7 giorni è disponibile quando attivata dal professionista.",
-          "source": "https://www.doctorium.it/faq/"
-        },
-        "usageLimits": {
-          "met": true,
-          "note": "La pagina dichiara che il consulto non è per emergenze e quando serve una valutazione in presenza.",
-          "source": "https://www.doctorium.it/faq/"
-        }
+        "priceBefore": {"met": true, "note": "La tariffa è dichiarata accanto a ciascun professionista prima della richiesta.", "source": "https://www.doctorium.it/faq/"},
+        "familySupport": {"met": true, "note": "La pagina dichiara che anziani e persone poco digitali possono farsi assistere da familiare o caregiver.", "source": "https://www.doctorium.it/faq/"},
+        "humanSupport": {"met": true, "note": "Sono pubblicati staff, WhatsApp, email e telefono con orari di assistenza.", "source": "https://www.doctorium.it/faq/"},
+        "multiAccess": {"met": true, "note": "Il servizio funziona da browser su computer, tablet o smartphone.", "source": "https://www.doctorium.it/faq/"},
+        "postVisit": {"met": true, "note": "È previsto un documento riepilogativo; la chat per 7 giorni è disponibile quando attivata dal professionista.", "source": "https://www.doctorium.it/faq/"},
+        "usageLimits": {"met": true, "note": "La pagina dichiara che il consulto non è per emergenze e quando serve una valutazione in presenza.", "source": "https://www.doctorium.it/faq/"}
       }
     },
     {
@@ -190,18 +93,9 @@
       "price": "Variabile",
       "priceNote": "stabilito dal professionista",
       "priceBand": "variable",
-      "needs": [
-        "specialist",
-        "booking",
-        "continuity"
-      ],
+      "needs": ["specialist", "booking", "continuity"],
       "description": "Videoconsulto disponibile quando attivato dal professionista. Prenotazione, collegamento e documenti sono gestiti dal sito o dall'app.",
-      "features": [
-        "Prenotazione per familiari",
-        "Sito o app",
-        "Link via email o SMS",
-        "Documenti dopo l'appuntamento"
-      ],
+      "features": ["Prenotazione per familiari", "Sito o app", "Link via email o SMS", "Documenti dopo l'appuntamento"],
       "assistance": true,
       "followup": "Documenti condivisibili dopo l'appuntamento",
       "family": "Prenotazione per un familiare documentata",
@@ -210,37 +104,284 @@
       "url": "https://www.doctolib.it/salute/prenota-videoconsulto/",
       "sourceUrl": "https://www.doctolib.it/salute/prenota-videoconsulto/",
       "criteria": {
-        "priceBefore": {
-          "met": false,
-          "note": "La pagina generale del videoconsulto non pubblica un prezzo o una regola uniforme.",
-          "source": null
-        },
-        "familySupport": {
-          "met": true,
-          "note": "La pagina ufficiale per i medici di famiglia documenta la prenotazione per i propri familiari.",
-          "source": "https://info.doctolib.it/medici-di-medicina-generale/"
-        },
-        "humanSupport": {
-          "met": true,
-          "note": "La pagina del videoconsulto rimanda a un centro di assistenza e a un canale di contatto.",
-          "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"
-        },
-        "multiAccess": {
-          "met": true,
-          "note": "Il collegamento è disponibile da sito, app o link ricevuto via email o SMS.",
-          "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"
-        },
-        "postVisit": {
-          "met": true,
-          "note": "Dopo l'appuntamento il professionista può condividere documenti nell'account del paziente.",
-          "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"
-        },
-        "usageLimits": {
-          "met": true,
-          "note": "La pagina precisa che idoneità e disponibilità del videoconsulto dipendono dal professionista sanitario.",
-          "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"
-        }
+        "priceBefore": {"met": false, "note": "La pagina generale del videoconsulto non pubblica un prezzo o una regola uniforme.", "source": null},
+        "familySupport": {"met": true, "note": "La pagina ufficiale per i medici di famiglia documenta la prenotazione per i propri familiari.", "source": "https://info.doctolib.it/medici-di-medicina-generale/"},
+        "humanSupport": {"met": true, "note": "La pagina del videoconsulto rimanda a un centro di assistenza e a un canale di contatto.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "multiAccess": {"met": true, "note": "Il collegamento è disponibile da sito, app o link ricevuto via email o SMS.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "postVisit": {"met": true, "note": "Dopo l'appuntamento il professionista può condividere documenti nell'account del paziente.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
+        "usageLimits": {"met": true, "note": "La pagina precisa che idoneità e disponibilità del videoconsulto dipendono dal professionista sanitario.", "source": "https://www.doctolib.it/salute/prenota-videoconsulto/"}
+      }
+    },
+    {
+      "id": "idoctors",
+      "provider": "iDoctors",
+      "initials": "ID",
+      "service": "Videoconsulto specialistico",
+      "price": "Variabile",
+      "priceNote": "tariffa indicata dal professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking"],
+      "description": "Marketplace di videoconsulti specialistici prenotabili e pagabili online. Il collegamento avviene dal browser tramite un link ricevuto per email.",
+      "features": ["Tariffa prima della prenotazione", "Smartphone o computer", "Nessun software da installare", "Limiti del videoconsulto dichiarati"],
+      "assistance": false,
+      "followup": "Il servizio generale dichiara che non prevede un referto",
+      "family": "Non documentato in modo uniforme",
+      "access": "Browser da smartphone o computer",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "sourceUrl": "https://www.idoctors.it/videoconsulti",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le tariffe dei videoconsulti sono pubblicate nelle schede dei professionisti prima della prenotazione.", "source": "https://www.idoctors.it/videoconsulti"},
+        "familySupport": {"met": false, "note": "Non è documentata una funzione uniforme per prenotare il videoconsulto per un'altra persona.", "source": null},
+        "humanSupport": {"met": false, "note": "La pagina del servizio non documenta un canale umano dedicato ai problemi di prenotazione.", "source": null},
+        "multiAccess": {"met": true, "note": "La pagina dichiara l'accesso tramite browser da smartphone o computer, senza installare software.", "source": "https://www.idoctors.it/videoconsulti"},
+        "postVisit": {"met": false, "note": "La pagina precisa che il videoconsulto generale non prevede il rilascio di referti.", "source": null},
+        "usageLimits": {"met": true, "note": "Sono dichiarati i limiti rispetto alla visita in presenza, ai referti e alle prescrizioni a distanza.", "source": "https://www.idoctors.it/videoconsulti"}
+      }
+    },
+    {
+      "id": "paginemediche",
+      "provider": "Paginemediche",
+      "initials": "PM",
+      "service": "Videovisite multispecialistiche",
+      "price": "Variabile",
+      "priceNote": "onorario mostrato nella disponibilità scelta",
+      "priceBand": "variable",
+      "needs": ["general", "specialist", "booking", "continuity"],
+      "description": "Piattaforma per cercare professionisti e prenotare visite in video, con app, operatori di supporto e scambio di documentazione sanitaria.",
+      "features": ["Prezzi e disponibilità pubblici", "Caregiver coinvolgibile", "Supporto telefonico", "Documenti prima, durante e dopo"],
+      "assistance": true,
+      "followup": "Documenti e referti condivisibili dopo la videovisita",
+      "family": "Caregiver coinvolgibile nella videovisita",
+      "access": "Sito, app e browser su più dispositivi",
+      "reviewed": "25 ago 2026",
+      "url": "https://visitami.paginemediche.it/",
+      "sourceUrl": "https://visitami.paginemediche.it/",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le pagine di prenotazione mostrano tariffa e orari del professionista prima della conferma.", "source": "https://visitami.paginemediche.it/videovisita-di-medicina-generale-trova-prenota-subito/p1660/online"},
+        "familySupport": {"met": true, "note": "La documentazione ufficiale della videovisita prevede il coinvolgimento di un caregiver.", "source": "https://supporto.paginemediche.it/onepage-documentation/"},
+        "humanSupport": {"met": true, "note": "La pagina di prenotazione documenta il supporto telefonico di un operatore dedicato.", "source": "https://visitami.paginemediche.it/"},
+        "multiAccess": {"met": true, "note": "Il servizio è gestibile dal sito e dall'app e la videovisita funziona tramite browser su più dispositivi.", "source": "https://visitami.paginemediche.it/"},
+        "postVisit": {"met": true, "note": "La documentazione ufficiale consente di condividere documenti e allegare il referto anche dopo la videovisita.", "source": "https://supporto.paginemediche.it/onepage-documentation/"},
+        "usageLimits": {"met": true, "note": "Le condizioni prevedono che il professionista possa richiedere la visita in presenza se mancano condizioni cliniche o tecniche adeguate.", "source": "https://www.paginemediche.it/termini-e-condizioni"}
+      }
+    },
+    {
+      "id": "topdoctors",
+      "provider": "Top Doctors",
+      "initials": "TD",
+      "service": "Videoconsulto e messaggistica privata",
+      "price": "Variabile",
+      "priceNote": "stabilito e pubblicato dal professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking"],
+      "description": "Marketplace di specialisti che possono offrire videoconsulto o messaggistica privata con pagamento anticipato e tariffa pubblicata nel profilo.",
+      "features": ["Tariffa nel profilo", "Videoconsulto o messaggistica", "Sito e app", "Limiti del consulto spiegati"],
+      "assistance": false,
+      "followup": "Non documentato come servizio uniforme dopo la visita",
+      "family": "Non documentato in modo uniforme",
+      "access": "Sito, app e diversi dispositivi",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.topdoctors.it/telemedicina/dottor/",
+      "sourceUrl": "https://www.topdoctors.it/telemedicina/dottor/",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le schede dei professionisti pubblicano la tariffa del videoconsulto prima della richiesta.", "source": "https://www.topdoctors.it/telemedicina/dottor/"},
+        "familySupport": {"met": false, "note": "Non è documentata una funzione uniforme per prenotare per un familiare o coinvolgere un caregiver.", "source": null},
+        "humanSupport": {"met": false, "note": "Le pagine considerate non documentano un canale umano uniforme dedicato all'assistenza di prenotazione.", "source": null},
+        "multiAccess": {"met": true, "note": "Il servizio dichiara videoconsulto, messaggistica, app e accesso da diversi dispositivi.", "source": "https://www.topdoctors.it/occupiamo-della-tua-salute/"},
+        "postVisit": {"met": false, "note": "La disponibilità di messaggistica non è documentata come seguito uniforme incluso dopo ogni videoconsulto.", "source": null},
+        "usageLimits": {"met": true, "note": "Una pagina ufficiale spiega che a distanza non è possibile eseguire l'esame obiettivo e descrive i limiti del teleconsulto.", "source": "https://www.topdoctors.it/articoli-medici/telemedicina-e-teleconsulto-nella-realta-clinica-attuale/"}
+      }
+    },
+    {
+      "id": "livedoctor",
+      "provider": "Live Doctor",
+      "initials": "LD",
+      "service": "Videoconsulti con medici specialisti",
+      "price": "Su abbonamento",
+      "priceNote": "costo della visita e sconti dipendono dal professionista",
+      "priceBand": "variable",
+      "needs": ["general", "specialist", "booking", "continuity"],
+      "description": "Piattaforma in abbonamento per prenotare e svolgere videoconsulti, conservare documenti e accedere da app o portale web.",
+      "features": ["Medicina generale e specialisti", "App e portale web", "Contatti telefonici", "Archivio personale"],
+      "assistance": true,
+      "followup": "Archivio di documenti e certificati",
+      "family": "Non documentato in modo sufficiente",
+      "access": "App, portale web e più categorie di dispositivo",
+      "reviewed": "25 ago 2026",
+      "url": "https://livedoctor.it/",
+      "sourceUrl": "https://livedoctor.it/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "La pagina descrive abbonamento e sconti ma non pubblica una tariffa uniforme o un intervallo completo.", "source": null},
+        "familySupport": {"met": false, "note": "È presente una domanda sui minori, ma la pagina accessibile non documenta una regola sufficiente per assegnare il punto.", "source": null},
+        "humanSupport": {"met": true, "note": "Sono pubblicati numeri di telefono e un indirizzo email per informazioni.", "source": "https://livedoctor.it/"},
+        "multiAccess": {"met": true, "note": "Il servizio dichiara accesso tramite app, portale web e qualsiasi categoria di dispositivo.", "source": "https://livedoctor.it/"},
+        "postVisit": {"met": true, "note": "È documentato un archivio personale con storico di certificati e documenti consultabili nel tempo.", "source": "https://livedoctor.it/"},
+        "usageLimits": {"met": false, "note": "La pagina generale non espone criteri clinici uniformi per stabilire quando occorre la visita in presenza.", "source": null}
+      }
+    },
+    {
+      "id": "humanitas",
+      "provider": "Humanitas",
+      "initials": "HU",
+      "service": "Televisita specialistica",
+      "price": "Non pubblicato",
+      "priceNote": "pagamento online durante la prenotazione",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking", "continuity"],
+      "description": "Televisita specialistica prenotabile online o tramite l'app Humanitas con Te, con caricamento preventivo dei documenti e referto finale.",
+      "features": ["Prenotazione online o app", "Documenti prima della visita", "Referto specialistico", "Assistenza Humanitas con Te"],
+      "assistance": true,
+      "followup": "Referto con indicazioni ed eventuali prescrizioni",
+      "family": "Televisita in assenza dell'assistito documentata in casi previsti",
+      "access": "Pagina di prenotazione e app Humanitas con Te",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.humanitas.it/visite-ed-esami/televisita/",
+      "sourceUrl": "https://www.humanitas.it/visite-ed-esami/televisita/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "La pagina descrive il pagamento online ma non pubblica un importo o intervallo consultabile senza iniziare la prenotazione.", "source": null},
+        "familySupport": {"met": true, "note": "Humanitas pubblica istruzioni per la televisita svolta, nei casi previsti, con una persona collegata per l'assistito.", "source": "https://www.humanitas.it/wp-content/uploads/2022/04/norme-preparazione-NP220_NI_Televisita-in-assenza-dellassistito_TLCCONAI.pdf"},
+        "humanSupport": {"met": true, "note": "È pubblicato un indirizzo email dedicato all'assistenza dell'app e del servizio Humanitas con Te.", "source": "https://www.humanitas.it/info/humanitas-con-te/"},
+        "multiAccess": {"met": true, "note": "La prenotazione è disponibile dalla pagina web dedicata oppure tramite l'app Humanitas con Te.", "source": "https://www.humanitas.it/visite-ed-esami/televisita/"},
+        "postVisit": {"met": true, "note": "Al termine della televisita il paziente riceve il referto con indicazioni ed eventuali prescrizioni.", "source": "https://www.humanitas.it/visite-ed-esami/televisita/"},
+        "usageLimits": {"met": false, "note": "La pagina informativa non pubblica una regola generale sufficiente sui casi che richiedono una visita in presenza.", "source": null}
+      }
+    },
+    {
+      "id": "cdidigital",
+      "provider": "CDI Digital",
+      "initials": "CD",
+      "service": "Videovisita o consulto scritto",
+      "price": "Variabile",
+      "priceNote": "tariffa del professionista o ambulatorio",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking", "continuity"],
+      "description": "Piattaforma di telemedicina del CDI con videovisite, consulti scritti, chat, fascicolo clinico e segreteria medica.",
+      "features": ["Prezzi visibili prima della registrazione", "Videovisita o consulto scritto", "Segreteria medica", "Referti e ricette in piattaforma"],
+      "assistance": true,
+      "followup": "Chat, referti, ricette e fascicolo clinico",
+      "family": "Non documentato in modo uniforme",
+      "access": "Browser da computer, tablet o smartphone",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.cdi-digital.it/",
+      "sourceUrl": "https://www.cdi-digital.it/",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le FAQ dichiarano che prezzi e disponibilità sono visibili anche prima della registrazione.", "source": "https://www.cdi-digital.it/faq-pazienti"},
+        "familySupport": {"met": false, "note": "Non è documentata una funzione generale per prenotare la prestazione per un'altra persona o caregiver.", "source": null},
+        "humanSupport": {"met": true, "note": "La piattaforma documenta il contatto con la Segreteria medica per informazioni e assistenza.", "source": "https://www.cdi-digital.it/faq-pazienti"},
+        "multiAccess": {"met": true, "note": "La piattaforma funziona via browser da computer, tablet e smartphone senza installare programmi.", "source": "https://www.cdi-digital.it/"},
+        "postVisit": {"met": true, "note": "Sono documentati referti, ricette, fascicolo clinico e chat che può restare attiva dopo la prestazione.", "source": "https://www.cdi-digital.it/faq-pazienti-loggato"},
+        "usageLimits": {"met": false, "note": "Le pagine considerate non espongono una regola clinica generale sui casi da rinviare alla visita in presenza.", "source": null}
+      }
+    },
+    {
+      "id": "govisit",
+      "provider": "GoVisit",
+      "initials": "GV",
+      "service": "Teleconsulti e servizi sanitari digitali",
+      "price": "Variabile",
+      "priceNote": "abbonamento o tariffa della prestazione",
+      "priceBand": "variable",
+      "needs": ["general", "specialist", "booking", "continuity"],
+      "description": "App che riunisce prenotazioni, chat e video con medici, cartella clinica digitale, telemonitoraggio e servizi di telerefertazione.",
+      "features": ["Chat e video con medici", "Prenotazioni in app", "Contatto di assistenza", "Cartella clinica e referti"],
+      "assistance": true,
+      "followup": "Cartella clinica, referti e report disponibili nell'app",
+      "family": "Non documentato per il teleconsulto",
+      "access": "App con chat, video e prenotazioni",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.go-visit.it/",
+      "sourceUrl": "https://www.go-visit.it/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "La pagina descrive abbonamenti e prestazioni ma non pubblica importi o intervalli uniformi.", "source": null},
+        "familySupport": {"met": false, "note": "Il supporto a familiari è citato per servizi domiciliari, non come funzione documentata del teleconsulto.", "source": null},
+        "humanSupport": {"met": true, "note": "Il sito pubblica un canale di contatto e dichiara supporto dedicato per dubbi sui servizi.", "source": "https://www.go-visit.it/professionisti/medico-specialista-o-centro-medico/"},
+        "multiAccess": {"met": true, "note": "Sono documentate più modalità digitali, comprese chat, video, prenotazioni e consultazione della cartella.", "source": "https://www.go-visit.it/"},
+        "postVisit": {"met": true, "note": "L'app conserva cartella clinica, certificati, referti, parametri e report condivisibili.", "source": "https://www.go-visit.it/"},
+        "usageLimits": {"met": false, "note": "La pagina generale non pubblica limiti clinici uniformi per i teleconsulti.", "source": null}
+      }
+    },
+    {
+      "id": "healthpoint",
+      "provider": "Health Point",
+      "initials": "HP",
+      "service": "Televisite My Digital Health",
+      "price": "Non pubblicato",
+      "priceNote": "pagamento online prima dell'addebito",
+      "priceBand": "variable",
+      "needs": ["general", "specialist", "booking", "continuity"],
+      "description": "Servizio multispecialistico tramite piattaforma web e app, con prenotazione, pagamento, cartella sanitaria, referto e prescrizione.",
+      "features": ["Computer o app", "Prenotazione a calendario", "Genitore o tutore per minori", "Referto e prescrizione"],
+      "assistance": true,
+      "followup": "Referto e prescrizione nella cartella sanitaria",
+      "family": "Registrazione del genitore o tutore per i minori",
+      "access": "Computer, app Android o iOS",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.healthpointitalia.com/",
+      "sourceUrl": "https://www.healthpointitalia.com/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "Il pagamento online è descritto, ma non è pubblicato un importo o intervallo uniforme nelle pagine considerate.", "source": null},
+        "familySupport": {"met": true, "note": "Le FAQ dichiarano che per un minorenne la registrazione è effettuata dal genitore o tutore legale.", "source": "https://www.healthpointitalia.com/faq/"},
+        "humanSupport": {"met": true, "note": "Sono pubblicati telefono ed email di contatto per informazioni e assistenza.", "source": "https://www.healthpointitalia.com/faq/"},
+        "multiAccess": {"met": true, "note": "Il servizio è accessibile da computer e tramite app Android o iOS.", "source": "https://www.healthpointitalia.com/"},
+        "postVisit": {"met": true, "note": "Le FAQ documentano referto e prescrizione disponibili nella cartella sanitaria dopo la televisita.", "source": "https://www.healthpointitalia.com/faq/"},
+        "usageLimits": {"met": false, "note": "Le pagine considerate non definiscono in modo sufficiente quando la televisita deve essere sostituita da una visita in presenza.", "source": null}
+      }
+    },
+    {
+      "id": "miagenda",
+      "provider": "miAgenda",
+      "initials": "MA",
+      "service": "Consulenze online con professionisti",
+      "price": "Variabile",
+      "priceNote": "prezzo indicato nella scheda del professionista",
+      "priceBand": "variable",
+      "needs": ["specialist", "booking"],
+      "description": "Portale italiano per cercare profili con videoconsulto, consultare prezzi e disponibilità e inviare la prenotazione online.",
+      "features": ["Profili prenotabili online", "Prezzi nelle schede", "Assistenza telefonica", "Ricerca per specializzazione"],
+      "assistance": true,
+      "followup": "Non documentato in modo uniforme",
+      "family": "Non documentato in modo uniforme",
+      "access": "Portale web",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.miagenda.it/",
+      "sourceUrl": "https://www.miagenda.it/",
+      "criteria": {
+        "priceBefore": {"met": true, "note": "Le schede dei professionisti mostrano prezzi e modalità di videoconsulto prima della richiesta.", "source": "https://www.miagenda.it/ricerca/nutrizionista"},
+        "familySupport": {"met": false, "note": "Non è documentata una funzione generale di prenotazione per un'altra persona o caregiver.", "source": null},
+        "humanSupport": {"met": true, "note": "Il sito pubblica telefono ed email per l'assistenza alle prenotazioni.", "source": "https://www.miagenda.it/"},
+        "multiAccess": {"met": false, "note": "È documentato il portale web, ma non almeno una seconda modalità o una compatibilità multi-dispositivo esplicita.", "source": null},
+        "postVisit": {"met": false, "note": "Non è documentato un servizio uniforme di referto, documenti o contatto successivo al videoconsulto.", "source": null},
+        "usageLimits": {"met": false, "note": "Le pagine considerate non pubblicano limiti clinici generali del videoconsulto.", "source": null}
+      }
+    },
+    {
+      "id": "saluteinsieme",
+      "provider": "SaluteInsieme",
+      "initials": "SI",
+      "service": "Telemedicina e videoconsulto",
+      "price": "Variabile",
+      "priceNote": "tariffa del professionista e caparra online",
+      "priceBand": "variable",
+      "needs": ["general", "specialist", "booking", "continuity"],
+      "description": "Portale sanitario disponibile da sito e app che include videoconsulti, seconde opinioni, prenotazioni e gestione di documenti e referti.",
+      "features": ["Sito e app", "Videoconsulti specialistici", "Telefono e WhatsApp", "Storico e referti"],
+      "assistance": true,
+      "followup": "Storico delle visite e documenti nell'app",
+      "family": "Non documentato per la singola prenotazione",
+      "access": "Sito e app mobile",
+      "reviewed": "25 ago 2026",
+      "url": "https://www.saluteinsieme.it/",
+      "sourceUrl": "https://www.saluteinsieme.it/",
+      "criteria": {
+        "priceBefore": {"met": false, "note": "La pagina generale descrive caparra e tariffa variabile, ma non espone prezzi uniformi del videoconsulto.", "source": null},
+        "familySupport": {"met": false, "note": "Il portale è rivolto alla famiglia, ma non documenta una funzione specifica per prenotare per un'altra persona.", "source": null},
+        "humanSupport": {"met": true, "note": "Sono pubblicati un numero telefonico e un contatto WhatsApp per l'assistenza.", "source": "https://www.saluteinsieme.it/"},
+        "multiAccess": {"met": true, "note": "Il servizio dichiara disponibilità tramite sito e app mobile.", "source": "https://www.saluteinsieme.it/"},
+        "postVisit": {"met": true, "note": "La pagina documenta notifiche, referti e storico delle visite disponibili nell'app.", "source": "https://www.saluteinsieme.it/"},
+        "usageLimits": {"met": false, "note": "La pagina generale non pubblica criteri clinici uniformi per il rinvio alla visita in presenza.", "source": null}
       }
     }
   ]
 }
+
