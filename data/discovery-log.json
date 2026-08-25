@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "runs": [
+    {
+      "performedAt": "2026-08-25T16:30:00.000Z",
+      "type": "initial-census",
+      "scopeVersion": "1.0",
+      "queries": [
+        "videoconsulto medico online prenota Italia telemedicina",
+        "visita medica online specialisti piattaforma Italia prenotazione",
+        "teleconsulto medico online prezzo Italia piattaforma",
+        "telemedicina pazienti videoconsulto sito ufficiale Italia"
+      ],
+      "includedOfferIds": ["miodottore", "santagostino", "doctorium", "doctolib", "idoctors", "paginemediche", "topdoctors", "livedoctor", "humanitas", "cdidigital", "govisit", "healthpoint", "miagenda", "saluteinsieme"],
+      "note": "Censimento iniziale non esaustivo. Sono state usate ricerche web e verificate soltanto fonti ufficiali dei servizi ammessi."
+    }
+  ]
+}
+
