@@ -4,10 +4,11 @@
   "type": "module",
   "scripts": {
     "monitor": "node scripts/monitor-offers.mjs",
-    "validate": "node scripts/validate-data.mjs"
+    "validate": "node scripts/validate-data.mjs",
+    "evidence:keygen": "node scripts/generate-evidence-key.mjs",
+    "evidence:decrypt": "node scripts/decrypt-evidence.mjs"
   },
   "engines": {
     "node": ">=20"
   }
 }
-

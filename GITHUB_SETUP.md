@@ -106,11 +106,20 @@ La prima esecuzione registra le impronte iniziali. Se i dati estratti differisco
 
 Se la proposta non è corretta, non fare merge: chiudi la pull request oppure modifica i dati direttamente su GitHub prima di unirla.
 
+## Archivio probatorio
+
+La chiave privata dell'archivio si trova soltanto sul computer del gestore in:
+
+```text
+private/evidence-private-key.pem
+```
+
+Creane una copia di sicurezza offline o in un archivio personale protetto. Non caricarla su GitHub, Aruba, email o servizi pubblici. Senza questa chiave le copie cifrate delle fonti non sono recuperabili.
+
 ## Sicurezza e continuità
 
 - GitHub non conosce password o accessi Aruba.
 - Il sito legge solamente un JSON pubblico; non può scrivere su GitHub.
 - Il workflow può modificare esclusivamente il proprio repository.
-- Se GitHub non è temporaneamente raggiungibile, il sito mostra i dati locali di sicurezza incorporati in `script.js`.
+- Se GitHub non è temporaneamente raggiungibile, il sito non mostra una copia potenzialmente obsoleta e segnala che i dati non sono disponibili.
 - Nessun dato sanitario o dato dei visitatori passa attraverso GitHub.
-

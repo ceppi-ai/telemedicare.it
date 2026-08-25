@@ -1,15 +1,20 @@
 import { createHash } from 'node:crypto';
-import { appendFileSync, readFileSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { appendFileSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { encryptEvidence } from './evidence-crypto.mjs';
 
 const offersPath = resolve('data/offers.json');
 const sourcesPath = resolve('data/sources.json');
 const statePath = resolve('data/monitoring-state.json');
 const reportPath = resolve('monitor-report.md');
+const evidenceLedgerPath = resolve('evidence/ledger.json');
+const evidencePublicKeyPath = resolve('evidence/public-key.pem');
 
 const data = JSON.parse(readFileSync(offersPath, 'utf8'));
 const sources = JSON.parse(readFileSync(sourcesPath, 'utf8'));
 const state = JSON.parse(readFileSync(statePath, 'utf8'));
+const evidenceLedger = JSON.parse(readFileSync(evidenceLedgerPath, 'utf8'));
+const evidencePublicKey = readFileSync(evidencePublicKeyPath, 'utf8');
 const now = new Date();
 const nowIso = now.toISOString();
 const nextCheck = new Date(now);
@@ -17,6 +22,71 @@ nextCheck.setUTCDate(nextCheck.getUTCDate() + 7);
 
 const results = [];
 const fieldChanges = [];
+const evidenceCreated = [];
+
+function sha256(value) {
+  return createHash('sha256').update(value).digest('hex');
+}
+
+function archiveEvidence({ source, response, html, text, normalizedHash, rawHash, textHash }) {
+  const date = nowIso.slice(0, 10);
+  const [year, month, day] = date.split('-');
+  const relativePath = `evidence/archive/${year}/${month}/${day}/${source.id}-${rawHash.slice(0, 16)}.evidence.json`;
+  const absolutePath = resolve(relativePath);
+  const payload = {
+    schemaVersion: 1,
+    capturedAt: nowIso,
+    source: {
+      id: source.id,
+      offerId: source.offerId,
+      provider: source.provider,
+      kind: source.kind,
+      configuredUrl: source.url
+    },
+    response: {
+      finalUrl: response.url,
+      status: response.status,
+      contentType: response.headers.get('content-type'),
+      etag: response.headers.get('etag'),
+      lastModified: response.headers.get('last-modified')
+    },
+    hashes: {
+      rawHtmlSha256: rawHash,
+      normalizedHtmlSha256: normalizedHash,
+      visibleTextSha256: textHash
+    },
+    html,
+    visibleText: text
+  };
+  const encrypted = encryptEvidence(payload, evidencePublicKey);
+  const envelope = {
+    ...encrypted,
+    metadata: {
+      capturedAt: nowIso,
+      sourceId: source.id,
+      provider: source.provider,
+      configuredUrl: source.url,
+      finalUrl: response.url
+    },
+    hashes: payload.hashes
+  };
+
+  mkdirSync(dirname(absolutePath), { recursive: true });
+  writeFileSync(absolutePath, `${JSON.stringify(envelope)}\n`, 'utf8');
+  const entry = {
+    capturedAt: nowIso,
+    sourceId: source.id,
+    offerId: source.offerId,
+    provider: source.provider,
+    url: source.url,
+    finalUrl: response.url,
+    path: relativePath.replace(/\\/g, '/'),
+    ...payload.hashes
+  };
+  evidenceLedger.entries.push(entry);
+  evidenceCreated.push(entry);
+  return entry.path;
+}
 
 function normalize(html) {
   return html
@@ -93,9 +163,13 @@ for (const source of sources) {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const html = await response.text();
     const text = visibleText(html);
-    const hash = createHash('sha256').update(normalize(html)).digest('hex');
+    const normalized = normalize(html);
+    const hash = sha256(normalized);
+    const rawHash = sha256(html);
+    const textHash = sha256(text);
     const firstCheck = !previousState.hash;
     const changed = Boolean(previousState.hash && previousState.hash !== hash);
+    const needsEvidence = previousState.archivedHash !== hash;
     const offer = data.offers.find(item => item.id === source.offerId);
     const detected = [];
 
@@ -112,8 +186,19 @@ for (const source of sources) {
     }
 
     if (changed) offer.reviewed = reviewedDate(now);
-    results.push({ ...source, status: 'ok', changed, firstCheck, detected });
-    state.sources[source.id] = { hash, checkedAt: nowIso, status: 'ok' };
+    const evidencePath = needsEvidence
+      ? archiveEvidence({ source, response, html, text, normalizedHash: hash, rawHash, textHash })
+      : previousState.evidencePath ?? null;
+    results.push({ ...source, status: 'ok', changed, firstCheck, detected, archived: needsEvidence, evidencePath });
+    state.sources[source.id] = {
+      hash,
+      rawHash,
+      textHash,
+      archivedHash: needsEvidence ? hash : previousState.archivedHash,
+      evidencePath,
+      checkedAt: nowIso,
+      status: 'ok'
+    };
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     results.push({ ...source, status: 'error', changed: false, firstCheck: false, error: message, detected: [] });
@@ -127,6 +212,9 @@ data.nextCheck = nextCheck.toISOString();
 
 writeFileSync(statePath, `${JSON.stringify(state, null, 2)}\n`);
 writeFileSync(offersPath, `${JSON.stringify(data, null, 2)}\n`);
+if (evidenceCreated.length > 0) {
+  writeFileSync(evidenceLedgerPath, `${JSON.stringify(evidenceLedger, null, 2)}\n`, 'utf8');
+}
 
 const changedSources = results.filter(result => result.changed);
 const failedSources = results.filter(result => result.status === 'error');
@@ -164,6 +252,12 @@ const report = [
     ? fieldChanges.map(change => `- **${change.provider} · ${change.field}**: \`${change.previous}\` → \`${change.next}\` ([fonte](${change.source}))`)
     : ['- Nessuna modifica strutturata estratta automaticamente. La pull request registra comunque la variazione della fonte per la verifica editoriale.']),
   '',
+  '## Archivio probatorio',
+  '',
+  ...(evidenceCreated.length
+    ? evidenceCreated.map(entry => `- **${entry.provider}** — copia cifrata registrata in \`${entry.path}\` — SHA-256: \`${entry.rawHtmlSha256}\``)
+    : ['- Nessuna nuova copia necessaria: le impronte delle fonti coincidono con l’ultima prova archiviata.']),
+  '',
   '> Il monitor propone automaticamente solo prezzi riconosciuti da regole specifiche. I sei criteri documentali, le descrizioni e le condizioni editoriali richiedono sempre conferma umana.'
 ].join('\n');
 
@@ -174,7 +268,7 @@ if (process.env.GITHUB_OUTPUT) {
   appendFileSync(process.env.GITHUB_OUTPUT, `has_failures=${failedSources.length > 0}\n`);
   appendFileSync(process.env.GITHUB_OUTPUT, `changed_sources=${changedSources.length}\n`);
   appendFileSync(process.env.GITHUB_OUTPUT, `field_changes=${fieldChanges.length}\n`);
+  appendFileSync(process.env.GITHUB_OUTPUT, `evidence_created=${evidenceCreated.length}\n`);
 }
 
 console.log(report);
-

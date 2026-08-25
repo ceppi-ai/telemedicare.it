@@ -9,10 +9,13 @@ Comparatore editoriale statico di servizi di telemedicina. Il sito è pubblicato
 - GitHub Actions controlla le fonti ogni lunedì alle 09:00, ora italiana.
 - Se non cambia nulla, registra automaticamente la data del controllo.
 - Se cambia una fonte, apre una pull request e richiede la revisione al gestore.
+- Alla prima acquisizione e quando una fonte cambia, salva una copia cifrata nell'archivio probatorio versionato.
 - Il gestore riceve la notifica GitHub, controlla il riepilogo e preme **Merge pull request**.
 - Dopo il merge il sito legge automaticamente il JSON aggiornato; non è necessario accedere ad Aruba.
 
 GitHub non riceve credenziali Aruba, password email o token personali. Il workflow usa soltanto il `GITHUB_TOKEN` temporaneo e limitato al repository.
+
+Le copie integrali delle fonti sono cifrate con la chiave pubblica presente nel repository. La chiave privata rimane esclusivamente in `private/evidence-private-key.pem`, cartella esclusa da Git e da Aruba. Vedi `evidence/README.md`.
 
 ## Avvio locale
 
@@ -42,4 +45,3 @@ Seguire [GITHUB_SETUP.md](GITHUB_SETUP.md). Dopo avere creato il repository, mod
 ## Limiti intenzionali
 
 Il monitor aggiorna automaticamente solo prezzi riconoscibili con una regola specifica. Qualunque modifica delle fonti viene segnalata in una pull request; criteri documentali, descrizioni e condizioni editoriali richiedono conferma umana. Il sito non raccoglie né pubblica rating o recensioni di piattaforme esterne.
-
