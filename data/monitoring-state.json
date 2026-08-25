@@ -1,49 +1,49 @@
 {
-  "lastRun": "2026-08-25T14:04:57.074Z",
+  "lastRun": "2026-08-25T16:51:08.396Z",
   "sources": {
     "miodottore-offer": {
       "hash": "9b05365b58a899a361ee9056aadaa985befab4a2fba3a8472fc2b1592d99f864",
-      "rawHash": "1ea841fd600020f7809b1fa471031cdef377693aa4810a76e8b48e3d5a4c3a66",
+      "rawHash": "24b2f776f46adf937ca824c1b454c1737119858ffe4d951faa5385cd6ffb9fc9",
       "textHash": "f74432e88753761fbbf4ee955f3fe1767b0a2979fe7f48c3bbe649adb3cc374a",
       "archivedHash": "9b05365b58a899a361ee9056aadaa985befab4a2fba3a8472fc2b1592d99f864",
       "evidencePath": "evidence/archive/2026/08/25/miodottore-offer-1ea841fd600020f7.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "miodottore-list": {
-      "hash": "aee2cda12e3de5fd22e3c0335412df341a9d6423db19b5c4442cdae7d2b0b7c0",
-      "rawHash": "f8444069127451da9ff734cc2d6a70f011f0cc2106758b581e368d9eeff85f28",
-      "textHash": "d3c471330a927e5352f1f52a8d3455bfd6b5f64722921b97761a4a82fe24d80b",
-      "archivedHash": "aee2cda12e3de5fd22e3c0335412df341a9d6423db19b5c4442cdae7d2b0b7c0",
-      "evidencePath": "evidence/archive/2026/08/25/miodottore-list-f8444069127451da.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "hash": "adc909c5f8b019ebfbe9d29bf3df835e4b2eaef7aa5921bf9c99a188c061e4fb",
+      "rawHash": "2031bfbb8b33036f4b2574770d72cbdfe39fa326d4794c0c8dd9a35bfbdfcb58",
+      "textHash": "cfcf2412f01d8044b0545e01ef87a68cc3050b682eae2949cdb587b123e56fdf",
+      "archivedHash": "adc909c5f8b019ebfbe9d29bf3df835e4b2eaef7aa5921bf9c99a188c061e4fb",
+      "evidencePath": "evidence/archive/2026/08/25/miodottore-list-2031bfbb8b33036f.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "santagostino-offer": {
-      "hash": "a630d92e6a89356573be5f4502f2aa8879eb7ca55180d55130e65f664ca95966",
-      "rawHash": "28815c6d38bd3ca12dd5178e4897421ed33236ddf2c88fce90d357d2c7692b69",
+      "hash": "e03a8c518efc40bcb0308312d3718dbe7f0c7d8897c93cc2e2a3365eb6301658",
+      "rawHash": "54d57b295dfeb1435f04faaf2c16f56af462174ed69c1fd0f769c5978ee8383a",
       "textHash": "6ae1cb5227648c89b345757b004ec7a41a782f01752db34660731ed5293dd5f5",
-      "archivedHash": "a630d92e6a89356573be5f4502f2aa8879eb7ca55180d55130e65f664ca95966",
-      "evidencePath": "evidence/archive/2026/08/25/santagostino-offer-28815c6d38bd3ca1.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "archivedHash": "e03a8c518efc40bcb0308312d3718dbe7f0c7d8897c93cc2e2a3365eb6301658",
+      "evidencePath": "evidence/archive/2026/08/25/santagostino-offer-54d57b295dfeb143.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "santagostino-telemedicine": {
-      "hash": "529309fab351858c1fff315823dbd64c7b78f6d8eb2129cf57a254c9bc60ba4c",
-      "rawHash": "07a2efe459e4826c8d99127c0a28f18f2e065b47536747fa0473e6a91b383e93",
+      "hash": "35c5b7f9c45b31d74f78ed887e5afc3a3be7967256962d21e76f0d02ede04de4",
+      "rawHash": "fdcee2381be75e847bcc0677a5be59696463f7fa24bb63bbf82e51ef9d225e4a",
       "textHash": "7f9475d0ae7928ae6401daa080978135107bd3244a9980c65cf5a6d36ec86710",
-      "archivedHash": "529309fab351858c1fff315823dbd64c7b78f6d8eb2129cf57a254c9bc60ba4c",
-      "evidencePath": "evidence/archive/2026/08/25/santagostino-telemedicine-07a2efe459e4826c.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "archivedHash": "35c5b7f9c45b31d74f78ed887e5afc3a3be7967256962d21e76f0d02ede04de4",
+      "evidencePath": "evidence/archive/2026/08/25/santagostino-telemedicine-fdcee2381be75e84.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "doctorium-offer": {
-      "hash": "0b984743954803c186859eff5e54372c722e8d4f47203be848a74df5c9feacdc",
-      "rawHash": "7c2535b34ac8500977cb01db6a0366c20db14227609d06b60336169f06b369b9",
+      "hash": "64f22c3a3109ef4fb3e8a93b22808e22b25f00938052a557852fd8ad003cb48e",
+      "rawHash": "b523810a7b7514cbc32e3fee5c5e0f4230794bb935b961a297cd35edb00e7a16",
       "textHash": "a5b7cba2969708d03937a4c8459df68b48e4ae5f1769beb100cc94cb3735acca",
-      "archivedHash": "0b984743954803c186859eff5e54372c722e8d4f47203be848a74df5c9feacdc",
-      "evidencePath": "evidence/archive/2026/08/25/doctorium-offer-7c2535b34ac85009.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "archivedHash": "64f22c3a3109ef4fb3e8a93b22808e22b25f00938052a557852fd8ad003cb48e",
+      "evidencePath": "evidence/archive/2026/08/25/doctorium-offer-b523810a7b7514cb.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "doctolib-offer": {
@@ -52,16 +52,193 @@
       "textHash": "b37fcc04fde18df13a08429e050990d7ffbdbbf76d322c37ecba2772f4db5f56",
       "archivedHash": "6b7364f7e73b488494d7b092b6e9624d853f9ae47cf4d78cc852057ede6accc4",
       "evidencePath": "evidence/archive/2026/08/25/doctolib-offer-56ce76dde6f49fdd.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     },
     "doctolib-family": {
-      "hash": "4666bbe8f94907f1acdc14f1feb1bc13fd619fb01c29295058ce4f5357f1b912",
-      "rawHash": "621d976673a6c0492ae4ee902dba016f893c44215a1a0b54f276c68a305c3d6b",
+      "hash": "b06824c68616f7f0930540ae7a7a7ee93eb50712ee81c7ddb2eee9ac09766120",
+      "rawHash": "42023e18fd86f2f73805c4506034ed7e2c7819b9eebf92d29d9b62aeffd151c3",
       "textHash": "3ba0e2d5fb89fe99d75012fa4fcef89ffba2f777a7b91298cd256952cd9bfc94",
-      "archivedHash": "4666bbe8f94907f1acdc14f1feb1bc13fd619fb01c29295058ce4f5357f1b912",
-      "evidencePath": "evidence/archive/2026/08/25/doctolib-family-621d976673a6c049.evidence.json",
-      "checkedAt": "2026-08-25T14:04:57.074Z",
+      "archivedHash": "b06824c68616f7f0930540ae7a7a7ee93eb50712ee81c7ddb2eee9ac09766120",
+      "evidencePath": "evidence/archive/2026/08/25/doctolib-family-42023e18fd86f2f7.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "idoctors-offer": {
+      "hash": "656236ace9cc5d6ef66f4d816d5570824999f17f58a7f0255df309ac4072fd82",
+      "rawHash": "c4f93272424db617d4f93ecc40879364d402915f5ff07eff4cd5e2b54a4e2566",
+      "textHash": "3829bcfb9158328f85d9133109016ee80cc15e9a59d749573a72f572555e7c9e",
+      "archivedHash": "656236ace9cc5d6ef66f4d816d5570824999f17f58a7f0255df309ac4072fd82",
+      "evidencePath": "evidence/archive/2026/08/25/idoctors-offer-c4f93272424db617.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "paginemediche-offer": {
+      "hash": "604ab8187518101eef7b176abd168d048b94a817692114e03926e41f51ccfee1",
+      "rawHash": "7bbd1b6bbf760a04c13a6ffcc56b32245b9a587fa2f2000dcc6ebbbffc95b52e",
+      "textHash": "b925fe9f5819808f1263e53c54f00972f74e39f4624de6c955ffc7d1c3c29571",
+      "archivedHash": "604ab8187518101eef7b176abd168d048b94a817692114e03926e41f51ccfee1",
+      "evidencePath": "evidence/archive/2026/08/25/paginemediche-offer-7bbd1b6bbf760a04.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "paginemediche-docs": {
+      "hash": "9b662b3d9866cd3eda2528579fd81d85d89996ff1ab3db5e96332d78ee929c69",
+      "rawHash": "280e47fc028fca91721a31ff8b430515809cacb7a949c404fba55021429f49d2",
+      "textHash": "8aff4f1238bb20da6bc39fc0e101611023fd881b40d02c8d147cafb2e50e738b",
+      "archivedHash": "9b662b3d9866cd3eda2528579fd81d85d89996ff1ab3db5e96332d78ee929c69",
+      "evidencePath": "evidence/archive/2026/08/25/paginemediche-docs-280e47fc028fca91.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "paginemediche-terms": {
+      "hash": "7f9352d45a713597ac8af7c013bb18b864da820dc03805a5c6f6a1538869df2f",
+      "rawHash": "1e7f50d278e8ab3c0cce072035fba0f3554fc8576bf47e7e964bd6646d097ea3",
+      "textHash": "5cb83b2b7a9346abc0940654c5ea0df1f87b8a3ae4d011672cc82f6fd0efe422",
+      "archivedHash": "7f9352d45a713597ac8af7c013bb18b864da820dc03805a5c6f6a1538869df2f",
+      "evidencePath": "evidence/archive/2026/08/25/paginemediche-terms-1e7f50d278e8ab3c.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "topdoctors-offer": {
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "topdoctors-access": {
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "topdoctors-limits": {
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "livedoctor-offer": {
+      "hash": "d69317c3ab51db8729f2641e3c7ef818b749bbf3dd719c0c120848b8361b10ef",
+      "rawHash": "bc3edcebacbdd7cb7e0e6fb7c20925e91f94f69225fd1fd8f6e6b25716912c16",
+      "textHash": "c7a015f4aa6c501639d40a77ba82b7072d3d27478bcd8415a2a0fd4981d347eb",
+      "archivedHash": "d69317c3ab51db8729f2641e3c7ef818b749bbf3dd719c0c120848b8361b10ef",
+      "evidencePath": "evidence/archive/2026/08/25/livedoctor-offer-bc3edcebacbdd7cb.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "humanitas-offer": {
+      "hash": "84a7860aca2ad1b7e3a319f8fd52561276ccd2a0d5c7e0a477ed472194730817",
+      "rawHash": "13eb8986acd9e79101f2d976d6918b2b9c44f3b2276e717e1d723040bbff2afb",
+      "textHash": "5e98def22a17fff2df0b55da2ae556fb570f45ceefcb9abf3532b692a1c661ba",
+      "archivedHash": "84a7860aca2ad1b7e3a319f8fd52561276ccd2a0d5c7e0a477ed472194730817",
+      "evidencePath": "evidence/archive/2026/08/25/humanitas-offer-13eb8986acd9e791.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "humanitas-support": {
+      "hash": "08518f81a35a2e3baba8da8456d92480a513bb31473c3b6ec76d4900b948187b",
+      "rawHash": "099689a1380630c7a2e7f71a9a7709cd32a1bcb06dbb730ed30322525f03b2d8",
+      "textHash": "84b77a66a6249debff4dafd52c9f21ada5c4deb4d2d5e2d99134423879a3e236",
+      "archivedHash": "08518f81a35a2e3baba8da8456d92480a513bb31473c3b6ec76d4900b948187b",
+      "evidencePath": "evidence/archive/2026/08/25/humanitas-support-099689a1380630c7.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "humanitas-family": {
+      "hash": "6fa1d77c215c4c350afe39b4ae4d454a09aa885197b28258ae8b72744dc33624",
+      "rawHash": "95594782ca5559bd3bb5d5c09ae49684b09b748ac54ca71191d7c6b65512fbc1",
+      "textHash": "6487c788e3e4afcdcc3a4cc2b5e2ef4e54cd99a1af5fce8c7d02e0b0e6c9700d",
+      "archivedHash": "6fa1d77c215c4c350afe39b4ae4d454a09aa885197b28258ae8b72744dc33624",
+      "evidencePath": "evidence/archive/2026/08/25/humanitas-family-95594782ca5559bd.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "cdidigital-offer": {
+      "hash": "62c977444a486eaa91941fe0ff4ab29aeadb1ea83bea9c225dcce07dfa4ab1f9",
+      "rawHash": "d8d67626262d616c9954fdd44858b5a8af512b336b336967e4380dc9ea2b5c7a",
+      "textHash": "d2ca4db02412f837bbbb858c5cd6800a80fbc264f16b7bf497ecb2cbadd2e2c4",
+      "archivedHash": "62c977444a486eaa91941fe0ff4ab29aeadb1ea83bea9c225dcce07dfa4ab1f9",
+      "evidencePath": "evidence/archive/2026/08/25/cdidigital-offer-d8d67626262d616c.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "cdidigital-faq": {
+      "hash": "5bf5ad95b530beb8a9604bd6bcf71e725eaecd24485ffb7c5d6d3824f838198d",
+      "rawHash": "9e7c6023eff59e48cf550727a7a3e51ce4de56552051400e93a9dc71881fde44",
+      "textHash": "1298e96026d9cb763ac7fc4a65e9fe3c1df8aaa8789d31ea179758a08ac357cf",
+      "archivedHash": "5bf5ad95b530beb8a9604bd6bcf71e725eaecd24485ffb7c5d6d3824f838198d",
+      "evidencePath": "evidence/archive/2026/08/25/cdidigital-faq-9e7c6023eff59e48.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "cdidigital-after": {
+      "hash": "a94e4962fe03fffa2ac79e55e484265c3211bfd77e62818b18f466bc7dda66bb",
+      "rawHash": "c583fd2f361600eda1d5715b13d5fbf9eb725ae5f0e31588ed8d208673dbc471",
+      "textHash": "e9da69314d4979a0f84db443a5a159f118e245546557af6b3dacda481eb14b57",
+      "archivedHash": "a94e4962fe03fffa2ac79e55e484265c3211bfd77e62818b18f466bc7dda66bb",
+      "evidencePath": "evidence/archive/2026/08/25/cdidigital-after-c583fd2f361600ed.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "govisit-offer": {
+      "hash": "97afea523c4a32623d5cf751352f36724383e461109f3c9d2baf506037d05fa5",
+      "rawHash": "0df6f3effc2c43cb1593ac418c58d5e813e1646d7b706581f819c05219a9f477",
+      "textHash": "776f0a6b6d4f37cfb851c7014e3602127838d56c94b222cbab769f5d65094cd8",
+      "archivedHash": "97afea523c4a32623d5cf751352f36724383e461109f3c9d2baf506037d05fa5",
+      "evidencePath": "evidence/archive/2026/08/25/govisit-offer-0df6f3effc2c43cb.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "govisit-support": {
+      "hash": "7646585f910c8c4dc688e4ad8ff21c85788a5290dbb170d93291ef5268715495",
+      "rawHash": "9c9d1209fe3f2d79e3630cce9cd95d57afbf278ef355326284fc207f47ae9f81",
+      "textHash": "b330a5ab59e18907a90ccfff0011d7e2421215862857dc7bbf19225ecbf75fbe",
+      "archivedHash": "7646585f910c8c4dc688e4ad8ff21c85788a5290dbb170d93291ef5268715495",
+      "evidencePath": "evidence/archive/2026/08/25/govisit-support-9c9d1209fe3f2d79.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "healthpoint-offer": {
+      "hash": "a45d3ffd3b18bcb59e0dca57aa2aec2fea33241caa35299f194cb30cc092c010",
+      "rawHash": "f485ba54ed866882a18fe32f4bebe6e23bb4a05be4b037eba91e58c2c09a6e9c",
+      "textHash": "b2a41ce236134d83794d07e4280b7182c5292aeaef9ab84dc112d0c266a4b951",
+      "archivedHash": "a45d3ffd3b18bcb59e0dca57aa2aec2fea33241caa35299f194cb30cc092c010",
+      "evidencePath": "evidence/archive/2026/08/25/healthpoint-offer-f485ba54ed866882.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "healthpoint-faq": {
+      "hash": "f221d901a59fde1e1a0f9709cca56a224435a9316baa963f278eeb9f1af09277",
+      "rawHash": "57630c6fd3abf06b0875978549a44f796e0e968ae6981302063d6cab68265682",
+      "textHash": "da25b43e1508330c6dc324b74a8a8b41a1e8a4a591cb48255e2372ac0241e2a9",
+      "archivedHash": "f221d901a59fde1e1a0f9709cca56a224435a9316baa963f278eeb9f1af09277",
+      "evidencePath": "evidence/archive/2026/08/25/healthpoint-faq-57630c6fd3abf06b.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "miagenda-offer": {
+      "hash": "39c59d4a9fa46f6962f6e9013dadb67483212e159f475338314082b25275c001",
+      "rawHash": "8eb49f5044f94404cac9cb3d7e9e8442a58f6158b47808c6a7c1b08d8d8dbeb8",
+      "textHash": "1b53e246ae204e8404accf94621fb200e628e5ab14a766c1b091ee3caf890104",
+      "archivedHash": "39c59d4a9fa46f6962f6e9013dadb67483212e159f475338314082b25275c001",
+      "evidencePath": "evidence/archive/2026/08/25/miagenda-offer-8eb49f5044f94404.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "miagenda-prices": {
+      "hash": "4b2fb3b5b98383354afc9c9ff68fbcc5f33e245800560fce5039ece215e7eddc",
+      "rawHash": "3b7a2ea1cbd567f8258d0c114a96f635f2631c6055dbfe845d4258e1f2dfb235",
+      "textHash": "0b5b158d1b516f601632f1de7127dac0da960c30cdca2b0a91853d11d75c9af0",
+      "archivedHash": "4b2fb3b5b98383354afc9c9ff68fbcc5f33e245800560fce5039ece215e7eddc",
+      "evidencePath": "evidence/archive/2026/08/25/miagenda-prices-3b7a2ea1cbd567f8.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
+      "status": "ok"
+    },
+    "saluteinsieme-offer": {
+      "hash": "bbd0f0bfd3c2d15a6cc55ed881fb44695aecdf7eb76b8cf1129edcf5abd4a7b5",
+      "rawHash": "8f39000f1ca5699c86a3680a6514462b905d41653fb522b47b047ae9a0ca4569",
+      "textHash": "1f04be84b1e6e640c75c599f9172388cb1d369b70658088f4317c63f5de937ea",
+      "archivedHash": "bbd0f0bfd3c2d15a6cc55ed881fb44695aecdf7eb76b8cf1129edcf5abd4a7b5",
+      "evidencePath": "evidence/archive/2026/08/25/saluteinsieme-offer-8f39000f1ca5699c.evidence.json",
+      "checkedAt": "2026-08-25T16:51:08.396Z",
       "status": "ok"
     }
   }

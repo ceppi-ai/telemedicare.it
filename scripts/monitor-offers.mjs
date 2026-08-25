@@ -236,7 +236,8 @@ for (const source of sources) {
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
-    results.push({ ...source, status: 'error', changed: false, firstCheck: false, error: message, detected: [] });
+    const repeatedError = previousState.status === 'error' && previousState.error === message;
+    results.push({ ...source, status: 'error', changed: false, firstCheck: false, repeatedError, error: message, detected: [] });
     state.sources[source.id] = { ...previousState, checkedAt: nowIso, status: 'error', error: message };
   }
 }
@@ -252,7 +253,7 @@ if (evidenceCreated.length > 0) {
 }
 
 const changedSources = results.filter(result => result.changed);
-const failedSources = results.filter(result => result.status === 'error');
+const failedSources = results.filter(result => result.status === 'error' && !result.repeatedError);
 const firstRun = results.filter(result => result.firstCheck);
 const needsReview = changedSources.length > 0 || failedSources.length > 0 || fieldChanges.length > 0;
 
