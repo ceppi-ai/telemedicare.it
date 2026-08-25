@@ -2,7 +2,7 @@ name: Ricerca mensile nuovi fornitori
 
 on:
   schedule:
-    - cron: '30 9 1-7 * 1'
+    - cron: '30 9 * * 1'
       timezone: Europe/Rome
   workflow_dispatch:
 
@@ -25,15 +25,28 @@ jobs:
       - name: Scarica il repository
         uses: actions/checkout@v4
 
+      - name: Verifica che sia il primo lunedì del mese
+        id: calendar
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$(TZ=Europe/Rome date +%d)" -le 7 ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Configura Node.js
+        if: steps.calendar.outputs.proceed == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '22'
 
       - name: Prepara la ricerca mensile
+        if: steps.calendar.outputs.proceed == 'true'
         run: node scripts/monthly-discovery.mjs
 
       - name: Crea il promemoria assegnato al gestore
+        if: steps.calendar.outputs.proceed == 'true'
         shell: bash
         run: |
           month="$(date -u +'%Y-%m')"
@@ -49,6 +62,6 @@ jobs:
           fi
 
       - name: Riepilogo
-        if: always()
+        if: steps.calendar.outputs.proceed == 'true'
         run: cat discovery-report.md >> "$GITHUB_STEP_SUMMARY"
 
