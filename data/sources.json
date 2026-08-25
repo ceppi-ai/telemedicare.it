@@ -5,6 +5,27 @@
   {"id": "santagostino-telemedicine", "offerId": "santagostino", "provider": "Santagostino", "kind": "evidence", "url": "https://www.santagostino.it/it/ambulatori/videoconsulti"},
   {"id": "doctorium-offer", "offerId": "doctorium", "provider": "Doctorium", "kind": "offer", "url": "https://www.doctorium.it/faq/"},
   {"id": "doctolib-offer", "offerId": "doctolib", "provider": "Doctolib", "kind": "offer", "url": "https://www.doctolib.it/salute/prenota-videoconsulto/"},
-  {"id": "doctolib-family", "offerId": "doctolib", "provider": "Doctolib", "kind": "evidence", "url": "https://info.doctolib.it/medici-di-medicina-generale/"}
+  {"id": "doctolib-family", "offerId": "doctolib", "provider": "Doctolib", "kind": "evidence", "url": "https://info.doctolib.it/medici-di-medicina-generale/"},
+  {"id": "idoctors-offer", "offerId": "idoctors", "provider": "iDoctors", "kind": "offer", "url": "https://www.idoctors.it/videoconsulti"},
+  {"id": "paginemediche-offer", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "offer", "url": "https://visitami.paginemediche.it/"},
+  {"id": "paginemediche-docs", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "evidence", "url": "https://supporto.paginemediche.it/onepage-documentation/"},
+  {"id": "paginemediche-terms", "offerId": "paginemediche", "provider": "Paginemediche", "kind": "evidence", "url": "https://www.paginemediche.it/termini-e-condizioni"},
+  {"id": "topdoctors-offer", "offerId": "topdoctors", "provider": "Top Doctors", "kind": "offer", "url": "https://www.topdoctors.it/telemedicina/dottor/"},
+  {"id": "topdoctors-access", "offerId": "topdoctors", "provider": "Top Doctors", "kind": "evidence", "url": "https://www.topdoctors.it/occupiamo-della-tua-salute/"},
+  {"id": "topdoctors-limits", "offerId": "topdoctors", "provider": "Top Doctors", "kind": "evidence", "url": "https://www.topdoctors.it/articoli-medici/telemedicina-e-teleconsulto-nella-realta-clinica-attuale/"},
+  {"id": "livedoctor-offer", "offerId": "livedoctor", "provider": "Live Doctor", "kind": "offer", "url": "https://livedoctor.it/"},
+  {"id": "humanitas-offer", "offerId": "humanitas", "provider": "Humanitas", "kind": "offer", "url": "https://www.humanitas.it/visite-ed-esami/televisita/"},
+  {"id": "humanitas-support", "offerId": "humanitas", "provider": "Humanitas", "kind": "evidence", "url": "https://www.humanitas.it/info/humanitas-con-te/"},
+  {"id": "humanitas-family", "offerId": "humanitas", "provider": "Humanitas", "kind": "evidence", "url": "https://www.humanitas.it/wp-content/uploads/2022/04/norme-preparazione-NP220_NI_Televisita-in-assenza-dellassistito_TLCCONAI.pdf"},
+  {"id": "cdidigital-offer", "offerId": "cdidigital", "provider": "CDI Digital", "kind": "offer", "url": "https://www.cdi-digital.it/"},
+  {"id": "cdidigital-faq", "offerId": "cdidigital", "provider": "CDI Digital", "kind": "evidence", "url": "https://www.cdi-digital.it/faq-pazienti"},
+  {"id": "cdidigital-after", "offerId": "cdidigital", "provider": "CDI Digital", "kind": "evidence", "url": "https://www.cdi-digital.it/faq-pazienti-loggato"},
+  {"id": "govisit-offer", "offerId": "govisit", "provider": "GoVisit", "kind": "offer", "url": "https://www.go-visit.it/"},
+  {"id": "govisit-support", "offerId": "govisit", "provider": "GoVisit", "kind": "evidence", "url": "https://www.go-visit.it/professionisti/medico-specialista-o-centro-medico/"},
+  {"id": "healthpoint-offer", "offerId": "healthpoint", "provider": "Health Point", "kind": "offer", "url": "https://www.healthpointitalia.com/"},
+  {"id": "healthpoint-faq", "offerId": "healthpoint", "provider": "Health Point", "kind": "evidence", "url": "https://www.healthpointitalia.com/faq/"},
+  {"id": "miagenda-offer", "offerId": "miagenda", "provider": "miAgenda", "kind": "offer", "url": "https://www.miagenda.it/"},
+  {"id": "miagenda-prices", "offerId": "miagenda", "provider": "miAgenda", "kind": "evidence", "url": "https://www.miagenda.it/ricerca/nutrizionista"},
+  {"id": "saluteinsieme-offer", "offerId": "saluteinsieme", "provider": "SaluteInsieme", "kind": "offer", "url": "https://www.saluteinsieme.it/"}
 ]
 
