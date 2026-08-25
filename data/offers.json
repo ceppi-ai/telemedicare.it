@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "criteriaVersion": "1.0",
-  "checkedAt": "2026-08-24T17:56:05.684Z",
-  "nextCheck": "2026-08-31T17:56:05.684Z",
+  "checkedAt": "2026-08-25T14:04:57.074Z",
+  "nextCheck": "2026-08-31T09:00:00.000Z",
   "offers": [
     {
       "id": "miodottore",
@@ -27,7 +27,7 @@
       "followup": "Non documentato in modo uniforme",
       "family": "Prenotazione per un'altra persona documentata",
       "access": "Video, chat o telefono; web e app",
-      "reviewed": "24 ago 2026",
+      "reviewed": "25 ago 2026",
       "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "sourceUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "criteria": {
@@ -86,7 +86,7 @@
       "followup": "Referti nell'area personale",
       "family": "Sezione familiari nell'account; prenotazione a nome del paziente",
       "access": "Computer o dispositivo mobile",
-      "reviewed": "24 ago 2026",
+      "reviewed": "25 ago 2026",
       "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "sourceUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "criteria": {
@@ -146,7 +146,7 @@
       "followup": "Referto; chat per 7 giorni se attivata dal professionista",
       "family": "Assistenza di familiare o caregiver documentata",
       "access": "Browser da computer, tablet o smartphone",
-      "reviewed": "24 ago 2026",
+      "reviewed": "25 ago 2026",
       "url": "https://www.doctorium.it/faq/",
       "sourceUrl": "https://www.doctorium.it/faq/",
       "criteria": {
@@ -206,7 +206,7 @@
       "followup": "Documenti condivisibili dopo l'appuntamento",
       "family": "Prenotazione per un familiare documentata",
       "access": "Sito, app o link email/SMS",
-      "reviewed": "24 ago 2026",
+      "reviewed": "25 ago 2026",
       "url": "https://www.doctolib.it/salute/prenota-videoconsulto/",
       "sourceUrl": "https://www.doctolib.it/salute/prenota-videoconsulto/",
       "criteria": {
