@@ -1,4 +1,89 @@
 {
   "schemaVersion": 1,
-  "entries": []
+  "entries": [
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "miodottore-offer",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
+      "finalUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
+      "path": "evidence/archive/2026/08/25/miodottore-offer-1ea841fd600020f7.evidence.json",
+      "rawHtmlSha256": "1ea841fd600020f7809b1fa471031cdef377693aa4810a76e8b48e3d5a4c3a66",
+      "normalizedHtmlSha256": "9b05365b58a899a361ee9056aadaa985befab4a2fba3a8472fc2b1592d99f864",
+      "visibleTextSha256": "f74432e88753761fbbf4ee955f3fe1767b0a2979fe7f48c3bbe649adb3cc374a"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/08/25/miodottore-list-f8444069127451da.evidence.json",
+      "rawHtmlSha256": "f8444069127451da9ff734cc2d6a70f011f0cc2106758b581e368d9eeff85f28",
+      "normalizedHtmlSha256": "aee2cda12e3de5fd22e3c0335412df341a9d6423db19b5c4442cdae7d2b0b7c0",
+      "visibleTextSha256": "d3c471330a927e5352f1f52a8d3455bfd6b5f64722921b97761a4a82fe24d80b"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "santagostino-offer",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "finalUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "path": "evidence/archive/2026/08/25/santagostino-offer-28815c6d38bd3ca1.evidence.json",
+      "rawHtmlSha256": "28815c6d38bd3ca12dd5178e4897421ed33236ddf2c88fce90d357d2c7692b69",
+      "normalizedHtmlSha256": "a630d92e6a89356573be5f4502f2aa8879eb7ca55180d55130e65f664ca95966",
+      "visibleTextSha256": "6ae1cb5227648c89b345757b004ec7a41a782f01752db34660731ed5293dd5f5"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/08/25/santagostino-telemedicine-07a2efe459e4826c.evidence.json",
+      "rawHtmlSha256": "07a2efe459e4826c8d99127c0a28f18f2e065b47536747fa0473e6a91b383e93",
+      "normalizedHtmlSha256": "529309fab351858c1fff315823dbd64c7b78f6d8eb2129cf57a254c9bc60ba4c",
+      "visibleTextSha256": "7f9475d0ae7928ae6401daa080978135107bd3244a9980c65cf5a6d36ec86710"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "doctorium-offer",
+      "offerId": "doctorium",
+      "provider": "Doctorium",
+      "url": "https://www.doctorium.it/faq/",
+      "finalUrl": "https://www.doctorium.it/faq/",
+      "path": "evidence/archive/2026/08/25/doctorium-offer-7c2535b34ac85009.evidence.json",
+      "rawHtmlSha256": "7c2535b34ac8500977cb01db6a0366c20db14227609d06b60336169f06b369b9",
+      "normalizedHtmlSha256": "0b984743954803c186859eff5e54372c722e8d4f47203be848a74df5c9feacdc",
+      "visibleTextSha256": "a5b7cba2969708d03937a4c8459df68b48e4ae5f1769beb100cc94cb3735acca"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "doctolib-offer",
+      "offerId": "doctolib",
+      "provider": "Doctolib",
+      "url": "https://www.doctolib.it/salute/prenota-videoconsulto/",
+      "finalUrl": "https://www.doctolib.it/salute/prenota-videoconsulto/",
+      "path": "evidence/archive/2026/08/25/doctolib-offer-56ce76dde6f49fdd.evidence.json",
+      "rawHtmlSha256": "56ce76dde6f49fdd86dd84c9ed7c6edb327ef95e2f505579322651214981a52b",
+      "normalizedHtmlSha256": "6b7364f7e73b488494d7b092b6e9624d853f9ae47cf4d78cc852057ede6accc4",
+      "visibleTextSha256": "b37fcc04fde18df13a08429e050990d7ffbdbbf76d322c37ecba2772f4db5f56"
+    },
+    {
+      "capturedAt": "2026-08-25T14:04:57.074Z",
+      "sourceId": "doctolib-family",
+      "offerId": "doctolib",
+      "provider": "Doctolib",
+      "url": "https://info.doctolib.it/medici-di-medicina-generale/",
+      "finalUrl": "https://info.doctolib.it/medici-di-medicina-generale/",
+      "path": "evidence/archive/2026/08/25/doctolib-family-621d976673a6c049.evidence.json",
+      "rawHtmlSha256": "621d976673a6c0492ae4ee902dba016f893c44215a1a0b54f276c68a305c3d6b",
+      "normalizedHtmlSha256": "4666bbe8f94907f1acdc14f1feb1bc13fd619fb01c29295058ce4f5357f1b912",
+      "visibleTextSha256": "3ba0e2d5fb89fe99d75012fa4fcef89ffba2f777a7b91298cd256952cd9bfc94"
+    }
+  ]
 }
