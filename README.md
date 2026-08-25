@@ -5,13 +5,14 @@ Comparatore editoriale statico di servizi di telemedicina. Il sito è pubblicato
 ## Architettura
 
 - Aruba ospita HTML, CSS, JavaScript e `config.js`.
-- GitHub ospita `data/offers.json`, che il sito legge a ogni apertura.
+- GitHub ospita `data/offers.json` e `data/census.json`, che il sito legge a ogni apertura.
 - GitHub Actions controlla le fonti ogni lunedì alle 09:00, ora italiana.
 - Se non cambia nulla, registra automaticamente la data del controllo.
 - Se cambia una fonte, apre una pull request e richiede la revisione al gestore.
 - Alla prima acquisizione e quando una fonte cambia, salva una copia cifrata nell'archivio probatorio versionato.
 - Il gestore riceve la notifica GitHub, controlla il riepilogo e preme **Merge pull request**.
 - Dopo il merge il sito legge automaticamente il JSON aggiornato; non è necessario accedere ad Aruba.
+- Il primo lunedì di ogni mese GitHub apre inoltre un'attività assegnata al gestore per cercare nuovi operatori con query ripetibili.
 
 GitHub non riceve credenziali Aruba, password email o token personali. Il workflow usa soltanto il `GITHUB_TOKEN` temporaneo e limitato al repository.
 
@@ -36,6 +37,7 @@ Richiede Node.js 20 o successivo:
 ```powershell
 npm run validate
 npm run monitor
+npm run discovery
 ```
 
 ## Configurazione iniziale
@@ -44,4 +46,7 @@ Seguire [GITHUB_SETUP.md](GITHUB_SETUP.md). Dopo avere creato il repository, mod
 
 ## Limiti intenzionali
 
-Il monitor aggiorna automaticamente solo prezzi riconoscibili con una regola specifica. Qualunque modifica delle fonti viene segnalata in una pull request; criteri documentali, descrizioni e condizioni editoriali richiedono conferma umana. Il sito non raccoglie né pubblica rating o recensioni di piattaforme esterne.
+Il monitor aggiorna automaticamente solo prezzi riconoscibili con una regola specifica. Qualunque modifica delle fonti viene segnalata in una pull request; criteri documentali, descrizioni e condizioni editoriali richiedono conferma umana. La ricerca mensile non ammette automaticamente nuove aziende: crea una checklist per il controllo editoriale. Il sito non raccoglie né pubblica rating o recensioni di piattaforme esterne.
+
+La copertura è una selezione di servizi monitorati, non un censimento esaustivo del mercato. Requisiti pubblici, esclusioni, registro dei servizi inclusi e candidatura gratuita sono descritti in `inclusione.html` e `data/census.json`.
+
