@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "criteriaVersion": "1.0",
-  "checkedAt": "2026-08-25T16:59:23.779Z",
-  "nextCheck": "2026-08-31T07:00:00.000Z",
+  "checkedAt": "2026-08-31T14:59:59.947Z",
+  "nextCheck": "2026-09-07T07:00:00.000Z",
   "offers": [
     {
       "id": "miodottore",
@@ -27,7 +27,7 @@
       "followup": "Non documentato in modo uniforme",
       "family": "Prenotazione per un'altra persona documentata",
       "access": "Video, chat o telefono; web e app",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "sourceUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "criteria": {
@@ -86,7 +86,7 @@
       "followup": "Referti nell'area personale",
       "family": "Sezione familiari nell'account; prenotazione a nome del paziente",
       "access": "Computer o dispositivo mobile",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "sourceUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "criteria": {
@@ -265,7 +265,7 @@
       "followup": "Il servizio generale dichiara che non prevede un referto",
       "family": "Non documentato in modo uniforme",
       "access": "Browser da smartphone o computer",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.idoctors.it/videoconsulti",
       "sourceUrl": "https://www.idoctors.it/videoconsulti",
       "criteria": {
@@ -688,7 +688,7 @@
       "followup": "Referto e prescrizione nella cartella sanitaria",
       "family": "Registrazione del genitore o tutore per i minori",
       "access": "Computer, app Android o iOS",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.healthpointitalia.com/",
       "sourceUrl": "https://www.healthpointitalia.com/",
       "criteria": {
@@ -747,7 +747,7 @@
       "followup": "Non documentato in modo uniforme",
       "family": "Non documentato in modo uniforme",
       "access": "Portale web",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.miagenda.it/",
       "sourceUrl": "https://www.miagenda.it/",
       "criteria": {
@@ -808,7 +808,7 @@
       "followup": "Storico delle visite e documenti nell'app",
       "family": "Non documentato per la singola prenotazione",
       "access": "Sito e app mobile",
-      "reviewed": "25 ago 2026",
+      "reviewed": "31 ago 2026",
       "url": "https://www.saluteinsieme.it/",
       "sourceUrl": "https://www.saluteinsieme.it/",
       "criteria": {
