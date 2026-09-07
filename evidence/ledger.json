@@ -504,6 +504,78 @@
       "rawHtmlSha256": "3fb3594c3aa1ee25f0d9f184f72e4036fd12240d8add978a731130f4981c95a8",
       "normalizedHtmlSha256": "831471b5d4358a844c5cc55250f915919a9d8bc93ddd452dd8a285f0b8c8fc15",
       "visibleTextSha256": "8910ee3421a462be94da27542bf492c16565e1d98b2edaf1bbe51965cba5d8a3"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/09/07/miodottore-list-8aefc1a4169fd9ad.evidence.json",
+      "rawHtmlSha256": "8aefc1a4169fd9ad0ae6686242160a32763db74a148946fd4ed03e5d87fdab3c",
+      "normalizedHtmlSha256": "68c61fdd69c137c079f5547999044cabbe07f82ae16e9f1808fdf566b6f0fc72",
+      "visibleTextSha256": "829bbf034e2fac48a1f763e7add7bdc1985af3e31a72ab0c785c5d913ab597e5"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/09/07/santagostino-telemedicine-4e3202248b54c170.evidence.json",
+      "rawHtmlSha256": "4e3202248b54c170ea70b2721720f2320b6b7734c307bc2f9b7945149b200128",
+      "normalizedHtmlSha256": "aa90d9ebf0df8d4ef9e56ea6f5fac3127f6627eddaaa65243065ffac1a946df8",
+      "visibleTextSha256": "3decead155f6c85d622069731678a17302bdb94b45dbd6708d980fc5a3704db2"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/09/07/idoctors-offer-af01dd03f065bc6f.evidence.json",
+      "rawHtmlSha256": "af01dd03f065bc6fe06c9f8a123f037b768deaf2d711edb86c1707748b98079f",
+      "normalizedHtmlSha256": "c3335bb05f179a4cf9f028b8c94deee25e3943c0237da24f58ba5eb8fc9afd73",
+      "visibleTextSha256": "5cb46d021c181e5cd5a1b9cca283ef0be2d5defcda90ac9739ad39be45c1a224"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/09/07/miagenda-offer-e44b8ce920fc7ff5.evidence.json",
+      "rawHtmlSha256": "e44b8ce920fc7ff55d9894a0729d7243f41328943ba452cb60070e2e6a0af60d",
+      "normalizedHtmlSha256": "5cd5f8e4a59114eed985369ade66c86fb434c5173add232ad1314d4e2752667e",
+      "visibleTextSha256": "44f7d61610e079f821e34304fecc55c5e5ade54bd8f4fde5e31f96cd2e758d90"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "miagenda-prices",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/ricerca/nutrizionista",
+      "finalUrl": "https://www.miagenda.it/ricerca/nutrizionista",
+      "path": "evidence/archive/2026/09/07/miagenda-prices-b0311a9a9e88d088.evidence.json",
+      "rawHtmlSha256": "b0311a9a9e88d0889900e4514701a3acfea5459b5852de154ba65f2065ab5788",
+      "normalizedHtmlSha256": "cbd1ba81042904371af3035f28f0f55b01ce9f89be3cf5374abbf369e312100f",
+      "visibleTextSha256": "9c2723eb92bb8b52690fb510ef047ee19f2d3d985c70582f0cd8a00da56cd3c2"
+    },
+    {
+      "capturedAt": "2026-09-07T13:26:52.570Z",
+      "sourceId": "saluteinsieme-offer",
+      "offerId": "saluteinsieme",
+      "provider": "SaluteInsieme",
+      "url": "https://www.saluteinsieme.it/",
+      "finalUrl": "https://www.saluteinsieme.it/",
+      "path": "evidence/archive/2026/09/07/saluteinsieme-offer-c154e17cdea3493f.evidence.json",
+      "rawHtmlSha256": "c154e17cdea3493f6f6c7470ee1f573b08e32e369896f544876bcfec6a0b9bef",
+      "normalizedHtmlSha256": "9396c5bfc55916484a3f11d90a108806bbc6a3d75ed46667785c12e3ac7456ef",
+      "visibleTextSha256": "5dec8ddae33bad511f7fb77a3dd16f5f9be016cd34bd1a89c29b4a33bbb22b9d"
     }
   ]
 }
