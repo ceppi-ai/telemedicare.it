@@ -101,7 +101,7 @@ La prima esecuzione registra le impronte iniziali. Se i dati estratti differisco
 1. Alle 09:00, ora italiana, GitHub controlla le fonti configurate in `data/sources.json`.
 2. Se non ci sono variazioni, aggiorna in autonomia data e prossimo controllo. Non occorre fare nulla.
 3. Se rileva una variazione o un errore, apre/aggiorna la pull request **“Offerte: variazioni da verificare”**.
-4. GitHub ti invia una notifica email con il collegamento alla pull request.
+4. GitHub aggiunge una menzione personale alla pull request e ti invia una nuova notifica con il collegamento, anche se una precedente richiesta di revisione era ancora pendente. La consegna via email dipende comunque dalle impostazioni di notifica dell'account GitHub e dai filtri della casella di posta.
 5. Apri il collegamento, leggi “Files changed” e il riepilogo delle fonti.
 6. Se è corretto, premi **Merge pull request** e poi **Confirm merge**.
 7. Il sito Aruba leggerà il file confermato dal ramo `main` alla visita successiva.

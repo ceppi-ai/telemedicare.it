@@ -90,8 +90,11 @@ jobs:
 
       - name: Richiedi la conferma del gestore
         if: steps.monitor.outputs.needs_review == 'true'
+        shell: bash
         run: |
-          gh pr edit "${{ steps.pull_request.outputs.url }}" --add-reviewer "$REVIEWER_LOGIN"
+          pr_url="${{ steps.pull_request.outputs.url }}"
+          gh pr edit "$pr_url" --add-reviewer "$REVIEWER_LOGIN"
+          gh pr comment "$pr_url" --body "@$REVIEWER_LOGIN il controllo settimanale ha rilevato variazioni da verificare. [Apri la richiesta e conferma l'aggiornamento]($pr_url)."
 
       - name: Riepilogo
         if: always()

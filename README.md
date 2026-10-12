@@ -10,7 +10,7 @@ Comparatore editoriale statico di servizi di telemedicina. Il sito è pubblicato
 - Se non cambia nulla, registra automaticamente la data del controllo.
 - Se cambia una fonte, apre una pull request e richiede la revisione al gestore.
 - Alla prima acquisizione e quando una fonte cambia, salva una copia cifrata nell'archivio probatorio versionato.
-- Il gestore riceve la notifica GitHub, controlla il riepilogo e preme **Merge pull request**.
+- Il gestore riceve una nuova menzione GitHub con il collegamento alla richiesta, controlla il riepilogo e preme **Merge pull request**. La menzione viene aggiunta anche quando una precedente richiesta di revisione era ancora pendente.
 - Dopo il merge il sito legge automaticamente il JSON aggiornato; non è necessario accedere ad Aruba.
 - Il primo lunedì di ogni mese GitHub apre inoltre un'attività assegnata al gestore per cercare nuovi operatori con query ripetibili.
 
