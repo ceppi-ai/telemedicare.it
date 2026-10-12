@@ -900,6 +900,90 @@
       "rawHtmlSha256": "737e3b3388e2d326c5de2eeff3358919a42023446b247ee7de9d6f30fcda2e2d",
       "normalizedHtmlSha256": "6774120db07044415951ba3de08ff49bb02f675cdd7c0ebf96ee7961f7d948a6",
       "visibleTextSha256": "1e8f0de04c457bf39360348f86b218bdb7c9516828775a42476d30348bd1d0f6"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/10/12/miodottore-list-b9fc57fa5c170814.evidence.json",
+      "rawHtmlSha256": "b9fc57fa5c170814e5f3fd0306b16c443f453f2ce75b8a84943cd900ee879b19",
+      "normalizedHtmlSha256": "e15ef25077f121936b66866b5c2965dc51dae1ba00a51d28d961bf66c05dc84b",
+      "visibleTextSha256": "07348c137456cecfab0b4d12cc80d56aabbf842abee8e46549341544dc369403"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "santagostino-offer",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "finalUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generale",
+      "path": "evidence/archive/2026/10/12/santagostino-offer-5de9672538085c61.evidence.json",
+      "rawHtmlSha256": "5de9672538085c61227dc21a6911da7337c6772a62d070a09fb52cda2aa14e99",
+      "normalizedHtmlSha256": "6976c6327460089cecfcabef5622115cc6d817488c0616611e34f0877aff44b9",
+      "visibleTextSha256": "4afc7ec0a2356b39ac2e2e4fe62721d4821270231565753c18555525739e080d"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/10/12/santagostino-telemedicine-5ca45cf7e0d8b174.evidence.json",
+      "rawHtmlSha256": "5ca45cf7e0d8b1746845ad3efc1a0922263db5601a2e46d2809b6bb47284b494",
+      "normalizedHtmlSha256": "1907a7a4efacd64d924994562365d7b993cd9c693d6032318d972d4213048004",
+      "visibleTextSha256": "8773f9fd334923eb1992df20cb304789bb7a4ad73210664645b446177aac3f51"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "doctorium-offer",
+      "offerId": "doctorium",
+      "provider": "Doctorium",
+      "url": "https://www.doctorium.it/faq/",
+      "finalUrl": "https://www.doctorium.it/faq/",
+      "path": "evidence/archive/2026/10/12/doctorium-offer-15b35b59048c68c7.evidence.json",
+      "rawHtmlSha256": "15b35b59048c68c7f2812cd6787e3c0827b62ea5b93069ab942e63748ee745c9",
+      "normalizedHtmlSha256": "fd118783f1756f3c33a9e5e382de0cf9dbe7c13d4d81b2dd59d5fac37cf53d3f",
+      "visibleTextSha256": "48b539841dcf3d760f3eacf3c3a5bc741b409de175a23216d1db4a626b41fd37"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/10/12/idoctors-offer-aac7639daf96278c.evidence.json",
+      "rawHtmlSha256": "aac7639daf96278c184bf180c34223d9c97445cc6ae6a356c8d209dd3d18afba",
+      "normalizedHtmlSha256": "c0a0d6ecd847df902b9e37e3db35cb0156caeba4cc14d62c4fdbaaae85845aa4",
+      "visibleTextSha256": "0569c169ced0958c7ff6da4401745b1de2fe6ef1dfeeff630784680f4f628792"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/10/12/miagenda-offer-08a96608f3ac9362.evidence.json",
+      "rawHtmlSha256": "08a96608f3ac93623ba4674a788e14935cb67030a0c559323b400bb530a03089",
+      "normalizedHtmlSha256": "49b613ee6e06392a5984bde51c05b67a631886efa3511eac4fbacc2b47177ad5",
+      "visibleTextSha256": "ab5c9de3ffbf60bd52d0c18d8e320af29234b7f30c183ca29031bceba7be7426"
+    },
+    {
+      "capturedAt": "2026-10-12T16:39:22.769Z",
+      "sourceId": "miagenda-prices",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/ricerca/nutrizionista",
+      "finalUrl": "https://www.miagenda.it/ricerca/nutrizionista",
+      "path": "evidence/archive/2026/10/12/miagenda-prices-d46144945b9e7eff.evidence.json",
+      "rawHtmlSha256": "d46144945b9e7eff470b96dc0c85a945052e17bf695bda8886e576311101870b",
+      "normalizedHtmlSha256": "c85091c9b48a99a044a7106d476a29d08f88f4885a6c44045c72ba63a2d30b24",
+      "visibleTextSha256": "e4343dd02b59fd62af8af8c74a078f6064a79b224c7fa1f0e444fd79a13b923c"
     }
   ]
 }
