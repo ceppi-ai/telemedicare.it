@@ -984,6 +984,18 @@
       "rawHtmlSha256": "d46144945b9e7eff470b96dc0c85a945052e17bf695bda8886e576311101870b",
       "normalizedHtmlSha256": "c85091c9b48a99a044a7106d476a29d08f88f4885a6c44045c72ba63a2d30b24",
       "visibleTextSha256": "e4343dd02b59fd62af8af8c74a078f6064a79b224c7fa1f0e444fd79a13b923c"
+    },
+    {
+      "capturedAt": "2026-10-12T17:41:46.245Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/10/12/miagenda-offer-cfdf2bd3ec53abb8.evidence.json",
+      "rawHtmlSha256": "cfdf2bd3ec53abb8bfa7e9611853f4550a9fed11f5af5ea41bd53aaf322aaebb",
+      "normalizedHtmlSha256": "00331a24e4ff2af1bb79977a90c3d8135d87daff3c0014dfcfad45a8bceca34a",
+      "visibleTextSha256": "3131d7bb2577e915987a3029b14ae3676184a148ccdcb510ff87826caff154ec"
     }
   ]
 }
