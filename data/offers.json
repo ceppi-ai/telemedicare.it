@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
   "criteriaVersion": "1.0",
-  "checkedAt": "2026-10-19T14:33:01.661Z",
-  "nextCheck": "2026-10-26T08:00:00.000Z",
+  "checkedAt": "2026-10-26T15:05:06.600Z",
+  "nextCheck": "2026-11-02T08:00:00.000Z",
   "offers": [
     {
       "id": "miodottore",
@@ -27,7 +27,7 @@
       "followup": "Non documentato in modo uniforme",
       "family": "Prenotazione per un'altra persona documentata",
       "access": "Video, chat o telefono; web e app",
-      "reviewed": "19 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "sourceUrl": "https://www.miodottore.it/per-pazienti/consulenza-online",
       "criteria": {
@@ -86,7 +86,7 @@
       "followup": "Referti nell'area personale",
       "family": "Sezione familiari nell'account; prenotazione a nome del paziente",
       "access": "Computer o dispositivo mobile",
-      "reviewed": "19 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "sourceUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
       "criteria": {
@@ -146,7 +146,7 @@
       "followup": "Referto; chat per 7 giorni se attivata dal professionista",
       "family": "Assistenza di familiare o caregiver documentata",
       "access": "Browser da computer, tablet o smartphone",
-      "reviewed": "12 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.doctorium.it/faq/",
       "sourceUrl": "https://www.doctorium.it/faq/",
       "criteria": {
@@ -265,7 +265,7 @@
       "followup": "Il servizio generale dichiara che non prevede un referto",
       "family": "Non documentato in modo uniforme",
       "access": "Browser da smartphone o computer",
-      "reviewed": "19 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.idoctors.it/videoconsulti",
       "sourceUrl": "https://www.idoctors.it/videoconsulti",
       "criteria": {
@@ -627,7 +627,7 @@
       "followup": "Cartella clinica, referti e report disponibili nell'app",
       "family": "Non documentato per il teleconsulto",
       "access": "App con chat, video e prenotazioni",
-      "reviewed": "28 set 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.go-visit.it/",
       "sourceUrl": "https://www.go-visit.it/",
       "criteria": {
@@ -747,7 +747,7 @@
       "followup": "Non documentato in modo uniforme",
       "family": "Non documentato in modo uniforme",
       "access": "Portale web",
-      "reviewed": "19 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.miagenda.it/",
       "sourceUrl": "https://www.miagenda.it/",
       "criteria": {
@@ -808,7 +808,7 @@
       "followup": "Storico delle visite e documenti nell'app",
       "family": "Non documentato per la singola prenotazione",
       "access": "Sito e app mobile",
-      "reviewed": "19 ott 2026",
+      "reviewed": "26 ott 2026",
       "url": "https://www.saluteinsieme.it/",
       "sourceUrl": "https://www.saluteinsieme.it/",
       "criteria": {
