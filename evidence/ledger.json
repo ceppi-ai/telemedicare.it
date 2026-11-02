@@ -1152,6 +1152,114 @@
       "rawHtmlSha256": "69db29891e98f7000c06001ce56bc607450cac169af74bd1f325a2bb3204a27e",
       "normalizedHtmlSha256": "4ad41328592946b36968608fa5f08f7c19dd6a68447579345d876292a9df1416",
       "visibleTextSha256": "162b47cdee75eb661466f10fdb28405dcb3fc23b8094771495488ba80b765cd9"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/11/02/miodottore-list-b7127e6475752dd7.evidence.json",
+      "rawHtmlSha256": "b7127e6475752dd7b692753f4f20d93b3b0c80ab067839cef8ec953e33434b8c",
+      "normalizedHtmlSha256": "854316ce7cf2b7d3780e203f449248329c4b101024a8c5bf85ac84dd7ad57938",
+      "visibleTextSha256": "bcf88ca3544b745a4fc6bb529c56da31a1b2dd143c905327b9e7f1f2da267896"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "santagostino-offer",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "finalUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generale",
+      "path": "evidence/archive/2026/11/02/santagostino-offer-b9dd9602e677f0de.evidence.json",
+      "rawHtmlSha256": "b9dd9602e677f0de797a700d77bb7e7d624cd6dc9dece77445a61e162774f4d7",
+      "normalizedHtmlSha256": "217cf881975f1ec15a5deb2872eec1aee2c88b5610be0994e4970af2813627e9",
+      "visibleTextSha256": "fbab5fd68f79cd12c948d6df44195d5ffbc22483ef00498fdc163f8b2e95adcb"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/11/02/santagostino-telemedicine-a384b6efeeadcb6f.evidence.json",
+      "rawHtmlSha256": "a384b6efeeadcb6f6660e03ff60bb141bd57293c8654e3b9d02e0cbdaa535c3c",
+      "normalizedHtmlSha256": "7a26e0899a01380501eb1eaa31e0cd25867121e1a5a7c9be9790fbf8a1c3089b",
+      "visibleTextSha256": "264218bb3921e2009f23998d301d5cafd029e553921b99f7c02a1ea73bbadbbd"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "doctorium-offer",
+      "offerId": "doctorium",
+      "provider": "Doctorium",
+      "url": "https://www.doctorium.it/faq/",
+      "finalUrl": "https://www.doctorium.it/faq/",
+      "path": "evidence/archive/2026/11/02/doctorium-offer-f480f5e4b9974f32.evidence.json",
+      "rawHtmlSha256": "f480f5e4b9974f32690be67db8c223b10ac77d3ccee5108aa61b39943d631e57",
+      "normalizedHtmlSha256": "60087b4a2fd6bfdb9a3ba9eb9ba77a9d9ee3c7fabbc001e304cb5bade0d46cc2",
+      "visibleTextSha256": "acd8a2612548c165038e7660a0b0d8f0e2f9efb219e6611087b96d706441cc7a"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/11/02/idoctors-offer-ce82a4682d0a8017.evidence.json",
+      "rawHtmlSha256": "ce82a4682d0a80170f08e3fbc821f0d8c0f26601084c80554c694901ae372288",
+      "normalizedHtmlSha256": "094e352f2bac397db3437562daf559d8de767c5cf3c490de9bbd03b567b4f108",
+      "visibleTextSha256": "0cc1fa7006a6efe5173614cb1ab91df743fc6bc61e114f56ac6622d848706403"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "paginemediche-terms",
+      "offerId": "paginemediche",
+      "provider": "Paginemediche",
+      "url": "https://www.paginemediche.it/termini-e-condizioni",
+      "finalUrl": "https://www.paginemediche.it/termini-e-condizioni",
+      "path": "evidence/archive/2026/11/02/paginemediche-terms-d958f122f7f60cd4.evidence.json",
+      "rawHtmlSha256": "d958f122f7f60cd42ad7d9c7c2b2a4fc9ea20000363eed7b11ef39e689c25976",
+      "normalizedHtmlSha256": "2577caec2b70d376cabf2fe19f066568992131ec939cf8a21b6774e01850257f",
+      "visibleTextSha256": "341c9b54f873f8cb2f7f05cc1a110635c4e3c43f8f51a139f7b0fe2c10e68255"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/11/02/miagenda-offer-cbc4db8e76d02791.evidence.json",
+      "rawHtmlSha256": "cbc4db8e76d0279188503c246d636e4aecb35ead3952a3dca72e40f2fd69100b",
+      "normalizedHtmlSha256": "aa0c9589116d8866219b2621cf47c682d75ba931b6add12549e677c2182277ba",
+      "visibleTextSha256": "6b0c7a3b1d5bf8066a7c681d17384f8d764e00ca3864a595f8373606424fc548"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "miagenda-prices",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/ricerca/nutrizionista",
+      "finalUrl": "https://www.miagenda.it/ricerca/nutrizionista",
+      "path": "evidence/archive/2026/11/02/miagenda-prices-cab6ec7af6b746dd.evidence.json",
+      "rawHtmlSha256": "cab6ec7af6b746dd9a3966d60646e9d8b46f5891c86ffe5218cf2d6ba8fe14df",
+      "normalizedHtmlSha256": "7ce6a92b3f506f6caa8547351ddddc4c1f80d9167ff0d11212e148be70f14866",
+      "visibleTextSha256": "e4b81a84b542d21ba702ffeca70f81c5a4e1bcd7ca284b2e74dad0bbe3438ac6"
+    },
+    {
+      "capturedAt": "2026-11-02T18:08:48.908Z",
+      "sourceId": "saluteinsieme-offer",
+      "offerId": "saluteinsieme",
+      "provider": "SaluteInsieme",
+      "url": "https://www.saluteinsieme.it/",
+      "finalUrl": "https://www.saluteinsieme.it/",
+      "path": "evidence/archive/2026/11/02/saluteinsieme-offer-72df83cd15683e76.evidence.json",
+      "rawHtmlSha256": "72df83cd15683e76c497e5afe8783275ff5f7d9989c21411ee3e158511e0e10f",
+      "normalizedHtmlSha256": "9f4261aa84415306aaa2259ba8d1c4eb8b4de8315042fec0d963b342a245c1c8",
+      "visibleTextSha256": "032e59e931f812051831ab89d3ee43dfbf76e018b3162f8bd239435afc0c9590"
     }
   ]
 }
