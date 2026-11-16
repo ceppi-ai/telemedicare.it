@@ -1392,6 +1392,90 @@
       "rawHtmlSha256": "c54391ea0581d61efb3fbd6108706c0471bf66790266dcbc5b24b82b92d65d4e",
       "normalizedHtmlSha256": "bb6f64eced94dfede1e70fd2ca990329f32bd49d50388c16da935f8ed1c70c59",
       "visibleTextSha256": "2d28b901c9bd2be38bb8d638b6e4187717e85f2cd4c145f761951522e8ec89e4"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/11/16/miodottore-list-2104e8943c55c203.evidence.json",
+      "rawHtmlSha256": "2104e8943c55c2033989f85511e2c379e13916143d5c368f67b094a996279bfc",
+      "normalizedHtmlSha256": "f752372c3fdc005c48d31afee25717ff10588d32c1e7bfc7aeb0ec565c3bdada",
+      "visibleTextSha256": "c1d2fe216b7187d8c5cc4388f9223b38bb3b82d5e44714c32da7af9e573f38b9"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "santagostino-offer",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generico-non-specialistico",
+      "finalUrl": "https://www.santagostino.it/it/prestazioni/videoconsulto-medico-generale",
+      "path": "evidence/archive/2026/11/16/santagostino-offer-80794303cc38c8ad.evidence.json",
+      "rawHtmlSha256": "80794303cc38c8adcd5bfe59f07cf08fad4e8db9e048bdab20eb9b401c4b6812",
+      "normalizedHtmlSha256": "f2c22e37670ba99b3e1f33ccfa79510df58c91309eb4d139a358346469691173",
+      "visibleTextSha256": "6367472488fcb7c45ac8d4e8d5c514f66a91beb7c2158b73b7f90873e6d8a004"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/11/16/santagostino-telemedicine-149e7a42d87be9ce.evidence.json",
+      "rawHtmlSha256": "149e7a42d87be9ce69d886f3a729ec03e555d55d904918e66558d01f8432eb2d",
+      "normalizedHtmlSha256": "6d61c15e3dfbb78da9ca6e37cb3401477256dc461af49f8ef1f568024155eaf0",
+      "visibleTextSha256": "eccc9c5565b35750aa16ca1887279e146aaeaa848b99b06feb8059c405da59d9"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/11/16/idoctors-offer-d2a65d93bfdb8bde.evidence.json",
+      "rawHtmlSha256": "d2a65d93bfdb8bde23d79a43be15a32ce0e81f36df13ebf7ed7d6bc64f5d695d",
+      "normalizedHtmlSha256": "f3a235a0ac5ce6502071ed002d2be7f5fbe0cf0f1493a217e1840b330d990f3f",
+      "visibleTextSha256": "a3b9681eaa5f5e977ce4965b75bf0e36d20743fdd0ae5bee58d0333066126112"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "paginemediche-terms",
+      "offerId": "paginemediche",
+      "provider": "Paginemediche",
+      "url": "https://www.paginemediche.it/termini-e-condizioni",
+      "finalUrl": "https://www.paginemediche.it/termini-e-condizioni",
+      "path": "evidence/archive/2026/11/16/paginemediche-terms-f4082f55a77a5a6d.evidence.json",
+      "rawHtmlSha256": "f4082f55a77a5a6df9246c149fc7c95a11655e19f5fc5bfa3b832b42e3464e8e",
+      "normalizedHtmlSha256": "54d92cdc0bf4f90093fe68fc872d9c5709096faf08a263d2f237fb70eeaafe3f",
+      "visibleTextSha256": "e28ba6a79f41fe85cfc8581ea648386bd606f1ab946933d22ea781ae436b7d1a"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/11/16/miagenda-offer-a40c2e405528c1d4.evidence.json",
+      "rawHtmlSha256": "a40c2e405528c1d4168ce00b621d91abe2a1fbdef801128730bbe87b223c0b5f",
+      "normalizedHtmlSha256": "8181fc25a222131cb29e9982f6340e0d7ff0319df17dae48a3bd88ea4bf34892",
+      "visibleTextSha256": "a7a13a0e698f533862878541b095972a7248f169334c8fae1dad7773dd4f0d73"
+    },
+    {
+      "capturedAt": "2026-11-16T18:18:12.356Z",
+      "sourceId": "saluteinsieme-offer",
+      "offerId": "saluteinsieme",
+      "provider": "SaluteInsieme",
+      "url": "https://www.saluteinsieme.it/",
+      "finalUrl": "https://www.saluteinsieme.it/",
+      "path": "evidence/archive/2026/11/16/saluteinsieme-offer-40ff9052ae495e12.evidence.json",
+      "rawHtmlSha256": "40ff9052ae495e12ee4c560c2ad786c4d118cc9d43f68da143f65fc311bd885a",
+      "normalizedHtmlSha256": "acfdde1bd860de49b08a4d66c8c4f6a290855862b1342c617475ece1a4838f71",
+      "visibleTextSha256": "1f1576a1dc0a24fcd11be0899f7db8c81f7ac82c6fe1d8bf15a8a8b8a6ce6d33"
     }
   ]
 }
