@@ -1476,6 +1476,138 @@
       "rawHtmlSha256": "40ff9052ae495e12ee4c560c2ad786c4d118cc9d43f68da143f65fc311bd885a",
       "normalizedHtmlSha256": "acfdde1bd860de49b08a4d66c8c4f6a290855862b1342c617475ece1a4838f71",
       "visibleTextSha256": "1f1576a1dc0a24fcd11be0899f7db8c81f7ac82c6fe1d8bf15a8a8b8a6ce6d33"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "miodottore-list",
+      "offerId": "miodottore",
+      "provider": "MioDottore",
+      "url": "https://www.miodottore.it/online",
+      "finalUrl": "https://www.miodottore.it/online",
+      "path": "evidence/archive/2026/11/23/miodottore-list-545c2e74d09fc4e8.evidence.json",
+      "rawHtmlSha256": "545c2e74d09fc4e8f829fa5af2b3269a25669843caa357a0e4bca17492754dff",
+      "normalizedHtmlSha256": "67dd47cb0835136e2bf30a5a20afb5c340f9b00d9edae580edce29faa95a7014",
+      "visibleTextSha256": "2ea4a591dc31ea4806cf855fcffbd4d8ed85bd2dce673bd366143a99cfd74b90"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "santagostino-telemedicine",
+      "offerId": "santagostino",
+      "provider": "Santagostino",
+      "url": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "finalUrl": "https://www.santagostino.it/it/ambulatori/videoconsulti",
+      "path": "evidence/archive/2026/11/23/santagostino-telemedicine-3765a0fc91a42eaa.evidence.json",
+      "rawHtmlSha256": "3765a0fc91a42eaae7583ca3c2b7bdc6056db0826df67278902c43ee7d460112",
+      "normalizedHtmlSha256": "4504504d02451c73535ddc35eb12a391ed435c4ef955eab93306bb7542b40a81",
+      "visibleTextSha256": "636b66fa5923a17d5c6f7bf1edcaaddb7283cfb6e484fa968929d2c08cbcfcc9"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "doctorium-offer",
+      "offerId": "doctorium",
+      "provider": "Doctorium",
+      "url": "https://www.doctorium.it/faq/",
+      "finalUrl": "https://www.doctorium.it/faq/",
+      "path": "evidence/archive/2026/11/23/doctorium-offer-a8d81bf39b6de408.evidence.json",
+      "rawHtmlSha256": "a8d81bf39b6de408a053a9fbef61cc32a4ccac9e579ba419027828b55f36566a",
+      "normalizedHtmlSha256": "fab3e535d6214700c44669371f22ee31f14347287bf3fa5eb0d71f11193d2cfa",
+      "visibleTextSha256": "890221901af7ed059f7b42fce3a79748d7465911f93332a6b3c435fa5fc98158"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "idoctors-offer",
+      "offerId": "idoctors",
+      "provider": "iDoctors",
+      "url": "https://www.idoctors.it/videoconsulti",
+      "finalUrl": "https://www.idoctors.it/videoconsulti",
+      "path": "evidence/archive/2026/11/23/idoctors-offer-50a4ae5df92b14d5.evidence.json",
+      "rawHtmlSha256": "50a4ae5df92b14d559161a6de08e3e29a1e546557feb9696c590d08d27ce7c2f",
+      "normalizedHtmlSha256": "ffc572ac86677bfb2412e987eb196fb74092bbba47ed4f32ad15109575591a00",
+      "visibleTextSha256": "624f36cefe01ac72d64571d7346ad2e49c0a3f50ef0f0e5208ef482e91134530"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "govisit-offer",
+      "offerId": "govisit",
+      "provider": "GoVisit",
+      "url": "https://www.go-visit.it/",
+      "finalUrl": "https://www.go-visit.it/",
+      "path": "evidence/archive/2026/11/23/govisit-offer-b040fda57b32e962.evidence.json",
+      "rawHtmlSha256": "b040fda57b32e962559fdb87c6053ca8b9ce9c0d086dc59af9dfd78419b86e46",
+      "normalizedHtmlSha256": "5cd585e6a7fed420397ddc1e9fbec3ca43def9805cf364c7b9937d4cdc3b72ed",
+      "visibleTextSha256": "c368ce8efe7a28470b5d1b58a05d913d3197914e26b5e9f56e473a3d9142c59d"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "govisit-support",
+      "offerId": "govisit",
+      "provider": "GoVisit",
+      "url": "https://www.go-visit.it/professionisti/medico-specialista-o-centro-medico/",
+      "finalUrl": "https://www.go-visit.it/professionisti/medico-specialista-o-centro-medico/",
+      "path": "evidence/archive/2026/11/23/govisit-support-0107734ebac94b39.evidence.json",
+      "rawHtmlSha256": "0107734ebac94b3945810d26060433cfce44aa55fe19604c9aa96437285aee90",
+      "normalizedHtmlSha256": "c4bcf7855aa6fc38d97c88be86afe5bb78436c6d471f775bb511dc4b19517b64",
+      "visibleTextSha256": "199fe68667da7f56ec7d5c45eeb6e6acae91ff311c703d2d026c9aec940d17b3"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "healthpoint-offer",
+      "offerId": "healthpoint",
+      "provider": "Health Point",
+      "url": "https://www.healthpointitalia.com/",
+      "finalUrl": "https://www.healthpointitalia.com/",
+      "path": "evidence/archive/2026/11/23/healthpoint-offer-f33fac8ec649c640.evidence.json",
+      "rawHtmlSha256": "f33fac8ec649c6408bbbd277c82db8532e7db215ec8993e6d769a6e59e17e714",
+      "normalizedHtmlSha256": "71886be25fedb6b798c569c47238c0dde6e8358dfe6a9ebf9e0077576eb5f7b4",
+      "visibleTextSha256": "f197a22a1100a1b58bb4a939e8bb578ae557b987ae58320c2e6829104c0e3328"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "healthpoint-faq",
+      "offerId": "healthpoint",
+      "provider": "Health Point",
+      "url": "https://www.healthpointitalia.com/faq/",
+      "finalUrl": "https://www.healthpointitalia.com/faq/",
+      "path": "evidence/archive/2026/11/23/healthpoint-faq-f48d77f8b2de0dd4.evidence.json",
+      "rawHtmlSha256": "f48d77f8b2de0dd4799bf535c480fcce0de94a0afd577a3ee111cba6a56f81c1",
+      "normalizedHtmlSha256": "f454039e92ec33adcf9cbe2b34155eef32ce46c0c451306c288f3898ab720ca2",
+      "visibleTextSha256": "624fe82bfb9731ae2db9399653a10ec2ee0217fd65edfa187ea8a5ed225be236"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "miagenda-offer",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/",
+      "finalUrl": "https://www.miagenda.it/",
+      "path": "evidence/archive/2026/11/23/miagenda-offer-f90e00ce7b255caf.evidence.json",
+      "rawHtmlSha256": "f90e00ce7b255caffa72cc1ee11fe8639d97febe3f3ef94a93c00a6c78f61230",
+      "normalizedHtmlSha256": "0f707c73a48dea3ba54f4451796089582d71b397ca565347211532ff96e9df74",
+      "visibleTextSha256": "2a51fe355ef9ecfb15e8152c2adfcdb2cc911032bf4f70809ccfe8f2ca1c0b53"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "miagenda-prices",
+      "offerId": "miagenda",
+      "provider": "miAgenda",
+      "url": "https://www.miagenda.it/ricerca/nutrizionista",
+      "finalUrl": "https://www.miagenda.it/ricerca/nutrizionista",
+      "path": "evidence/archive/2026/11/23/miagenda-prices-ef905f52dae01087.evidence.json",
+      "rawHtmlSha256": "ef905f52dae010874ac2f734bd7c01a25aeb8b7f14847284aa803bb448c9ab50",
+      "normalizedHtmlSha256": "cc90119a29ce71905bf6165833577cef0d198e06d309a897f9be0e766a440493",
+      "visibleTextSha256": "586d3fee6922efb37fbba744364a2455aa438c98f0eea160301f04f6879f7372"
+    },
+    {
+      "capturedAt": "2026-11-23T20:01:56.752Z",
+      "sourceId": "saluteinsieme-offer",
+      "offerId": "saluteinsieme",
+      "provider": "SaluteInsieme",
+      "url": "https://www.saluteinsieme.it/",
+      "finalUrl": "https://www.saluteinsieme.it/",
+      "path": "evidence/archive/2026/11/23/saluteinsieme-offer-241a9a7f2f4efc3b.evidence.json",
+      "rawHtmlSha256": "241a9a7f2f4efc3b7121481afae8f7065f69b1ce2f7732657a53352eadd331a8",
+      "normalizedHtmlSha256": "9d72cceec6e27b66adea4b8b512f4f499c279ed60b987c3386cf3e28cb3bb865",
+      "visibleTextSha256": "caba4b4557fdae3bc2c456b421d9b23543bd027bac8739dce21aa1d1c3e9e72b"
     }
   ]
 }
